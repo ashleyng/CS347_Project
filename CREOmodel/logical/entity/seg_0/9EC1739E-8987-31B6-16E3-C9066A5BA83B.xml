@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9EC1739E-8987-31B6-16E3-C9066A5BA83B" name="CREO_item_esc">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-10 15:05:17 UTC</createdTime>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<engineerTo>
+<item key="1F25883A-2032-AFA9-8160-70821F1E484C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="item_esc_id" id="9C2DF8F5-3348-0233-90D7-DD1CFE1E2A88">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-10 15:05:28 UTC</createdTime>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<engineerTo>
+<item key="1F25883A-2032-AFA9-8160-70821F1E484C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="item_id" id="DB0D6585-EEE2-EFDE-2B84-490835AF290F">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-10 16:53:13 UTC</createdTime>
+<generatorID>0E276541-CA27-E4CA-B007-DEA41D7FCD59</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<engineerTo>
+<item key="1F25883A-2032-AFA9-8160-70821F1E484C" value="true"/>
+</engineerTo>
+<referedAttribute>E45BACA9-40D5-6C67-DA2E-48B5A96B7ABE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="escalation_id" id="8AED2DA6-F924-14A9-6B09-711A586B28A9">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-10 16:53:23 UTC</createdTime>
+<generatorID>081C09B7-5D0E-6104-AFC0-6911AC090C7C</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<engineerTo>
+<item key="1F25883A-2032-AFA9-8160-70821F1E484C" value="true"/>
+</engineerTo>
+<referedAttribute>177409C7-3552-DE8C-C9D0-6D9C9F8A1E27</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="18847770-E15E-4049-C8F6-5D74B82AFA81" name="CREO_item_esc PK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-10 15:05:38 UTC</createdTime>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<engineerTo>
+<item key="1F25883A-2032-AFA9-8160-70821F1E484C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9C2DF8F5-3348-0233-90D7-DD1CFE1E2A88</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

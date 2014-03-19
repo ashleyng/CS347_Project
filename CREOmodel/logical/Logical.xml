@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="8FF8FB82-8F7F-D5F2-C2D3-80B2BFCC60E0" mainViewID="BEEAAACB-C976-557A-DAA5-D4BCD802D98F">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-10 14:50:21 UTC</createdTime>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

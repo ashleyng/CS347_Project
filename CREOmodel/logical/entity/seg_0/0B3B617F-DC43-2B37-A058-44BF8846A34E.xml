@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0B3B617F-DC43-2B37-A058-44BF8846A34E" name="CREO_lease_item">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-10 15:02:18 UTC</createdTime>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<engineerTo>
+<item key="1F25883A-2032-AFA9-8160-70821F1E484C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="item_id" id="E45BACA9-40D5-6C67-DA2E-48B5A96B7ABE">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-10 15:02:29 UTC</createdTime>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<engineerTo>
+<item key="1F25883A-2032-AFA9-8160-70821F1E484C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="description" id="EA89ABB2-3408-5949-53CC-8E9BD40FCCBD">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-10 15:02:42 UTC</createdTime>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<engineerTo>
+<item key="1F25883A-2032-AFA9-8160-70821F1E484C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="start_date" id="D5A90998-BF84-8B51-143A-325CF1E73838">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-10 15:03:01 UTC</createdTime>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<engineerTo>
+<item key="1F25883A-2032-AFA9-8160-70821F1E484C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="end_date" id="BFFC06C2-E2E3-68CD-96CA-2729518691D7">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-10 15:03:11 UTC</createdTime>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<engineerTo>
+<item key="1F25883A-2032-AFA9-8160-70821F1E484C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="rent" id="885BB0AD-0E1E-95B7-2652-4980B44E94B8">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-10 15:03:18 UTC</createdTime>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<engineerTo>
+<item key="1F25883A-2032-AFA9-8160-70821F1E484C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+</Attribute>
+<Attribute name="lease_id" id="0BA96076-E110-D8FC-BF9B-57E9F3CE62F4">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-10 15:21:26 UTC</createdTime>
+<generatorID>3CF43D50-9319-0DF7-31EE-AE36D1A5A884</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<engineerTo>
+<item key="1F25883A-2032-AFA9-8160-70821F1E484C" value="true"/>
+</engineerTo>
+<referedAttribute>3D142D4C-220A-4214-E08B-609F5C83B0C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2B9BFD7C-37CB-AD00-0B0C-39C917CF24A6" name="CREO_lease_item PK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-10 15:02:40 UTC</createdTime>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<engineerTo>
+<item key="1F25883A-2032-AFA9-8160-70821F1E484C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E45BACA9-40D5-6C67-DA2E-48B5A96B7ABE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

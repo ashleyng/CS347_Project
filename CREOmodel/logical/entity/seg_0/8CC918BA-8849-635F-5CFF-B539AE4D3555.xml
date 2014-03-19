@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CC918BA-8849-635F-5CFF-B539AE4D3555" name="CREO_issue">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-10 14:55:01 UTC</createdTime>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<engineerTo>
+<item key="1F25883A-2032-AFA9-8160-70821F1E484C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="issue_id" id="63241361-14EC-B344-1056-164091D577E3">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-10 14:55:08 UTC</createdTime>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<engineerTo>
+<item key="1F25883A-2032-AFA9-8160-70821F1E484C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="description" id="D67576FE-CDE4-89C2-431F-A2E422750477">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-10 14:55:22 UTC</createdTime>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<engineerTo>
+<item key="1F25883A-2032-AFA9-8160-70821F1E484C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="due_date" id="54D3F17B-B4AE-B2F3-82D8-1B6A498535AF">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-10 14:55:39 UTC</createdTime>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<engineerTo>
+<item key="1F25883A-2032-AFA9-8160-70821F1E484C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="status" id="540B9D8F-C828-4346-76EC-A54E97BC6EA7">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-10 14:55:52 UTC</createdTime>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<engineerTo>
+<item key="1F25883A-2032-AFA9-8160-70821F1E484C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+</Attribute>
+<Attribute name="lease_id" id="4409F163-485B-B4F3-7F24-C3AF2577E69F">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-10 15:21:11 UTC</createdTime>
+<generatorID>CDD6E3C9-4318-54E0-517B-4AA58D639C5B</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<engineerTo>
+<item key="1F25883A-2032-AFA9-8160-70821F1E484C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3D142D4C-220A-4214-E08B-609F5C83B0C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="property_id" id="5560EEBE-EB76-8F4C-D8E4-57C605B964D9">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-10 16:47:05 UTC</createdTime>
+<generatorID>9D8DDA84-7E50-FDBF-D24D-B76761FA6D94</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<engineerTo>
+<item key="1F25883A-2032-AFA9-8160-70821F1E484C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2674D6E0-61DA-FF51-DCE3-E784E154D850</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="contact_id" id="7137FA1F-C033-3E28-5D5E-A69422517FD3">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-10 16:47:36 UTC</createdTime>
+<generatorID>2348530A-B8ED-6462-52A0-209BC876FEC3</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<engineerTo>
+<item key="1F25883A-2032-AFA9-8160-70821F1E484C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>48B82AEC-F84B-B026-8906-2CD9EB7854EA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="10A9A58C-6CEC-8212-25C5-5FC669935A37" name="CREO_issue PK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-10 14:55:19 UTC</createdTime>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<engineerTo>
+<item key="1F25883A-2032-AFA9-8160-70821F1E484C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>63241361-14EC-B344-1056-164091D577E3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
