@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C9DB4A7-461C-F9E5-9FCC-FEDD8AD6740E" name="CREO_cost">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-19 21:16:52 UTC</createdTime>
+<generatorID>61A8EDFE-1DEC-8F68-9C8C-2194066A2267</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cost_id" id="11280459-D563-0F7E-9E1E-3DF2A579DD78">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-19 21:16:52 UTC</createdTime>
+<generatorID>50A62A95-3024-64FB-4C98-7B739B041192</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="B348CEBC-045A-6E38-2E6B-21C699116C03">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-19 21:16:52 UTC</createdTime>
+<generatorID>A5908BDE-BFB9-392E-859B-E6404B11688F</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="amount" id="D909F2EF-2D8E-AD18-719B-51D798C33C75">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-19 21:16:52 UTC</createdTime>
+<generatorID>8569A147-0C2A-A10C-15A4-9D4963BC81EC</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_incurred" id="6AC59FBA-AB85-61D3-47B2-FD01B0C5E115">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-19 21:16:52 UTC</createdTime>
+<generatorID>9B8DD89C-7BB9-57DA-45D2-378A2D9874EE</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="4336BD83-5A16-360B-13D0-3F6B60BEFD8A">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-19 21:16:52 UTC</createdTime>
+<generatorID>0BA6C39F-276F-3744-91BC-901BE7B8C494</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_paid" id="EB88F7D9-4243-2BD3-CDC9-169BF974B34C">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-19 21:16:52 UTC</createdTime>
+<generatorID>B351CDFB-2EE0-AFA7-64FE-6076FD56C76C</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREO_lease_item_item_id" id="A42C2197-5096-ECE0-0E9E-03268B5DBB38">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-19 21:16:52 UTC</createdTime>
+<generatorID>17882E59-E574-BE3D-21B2-5F34FE60AB61</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>FA73F648-B600-BDC1-E4D8-D31B135690D7</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8BD74D3-D20C-F580-DD01-671F6E03F337" referredColumn="FA73F648-B600-BDC1-E4D8-D31B135690D7"/>
+</associations>
+</Column>
+<Column name="CREO_property_property_id" id="48DD3518-FEC1-0CCE-4FA4-8EF5CC4FECE7">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-19 21:16:52 UTC</createdTime>
+<generatorID>F2F185F6-5422-E4A9-7B7C-0AA31E93B5D0</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>55875346-4127-084C-FA71-2259AD2F40A6</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CAF3BD70-D188-9871-010D-869A84B32C9D" referredColumn="55875346-4127-084C-FA71-2259AD2F40A6"/>
+</associations>
+</Column>
+<Column name="CREO_contact_contact_id" id="06039F01-EC35-96CF-573A-6A11755FCF71">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-19 21:16:52 UTC</createdTime>
+<generatorID>D92C4A8B-7F54-C8D7-541C-5A7DE7C9572B</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>256D213F-6ED7-67AB-E1A7-C6158B6DE45E</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD057EAF-4783-8B3C-0DC2-37E06DF540F2" referredColumn="256D213F-6ED7-67AB-E1A7-C6158B6DE45E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9F96886-AF84-A71D-837A-5F8FEC042003" name="CREO_cost_PK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-19 21:16:52 UTC</createdTime>
+<generatorID>80EACD9F-9723-95D2-7B43-4F89377C4C64</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11280459-D563-0F7E-9E1E-3DF2A579DD78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74C14818-C589-A22C-C576-A0940D89AC44" name="CREO_cost_CREO_lease_item_FK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-19 21:16:53 UTC</createdTime>
+<generatorID>8E52E875-5915-B9E3-CFE1-AD774C0D4B52</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A42C2197-5096-ECE0-0E9E-03268B5DBB38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="211AA154-122E-72B9-74C4-2C1D36FF9ACD" name="CREO_cost_CREO_property_FK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-19 21:16:53 UTC</createdTime>
+<generatorID>18AB382E-D57E-625B-CFB3-6DD907ED0F55</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48DD3518-FEC1-0CCE-4FA4-8EF5CC4FECE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25E82AA2-833D-69E0-51DB-27A46CF6C855" name="CREO_cost_CREO_contact_FK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-19 21:16:53 UTC</createdTime>
+<generatorID>4CBF0E87-EDA4-CFFA-1617-7258815F24E8</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06039F01-EC35-96CF-573A-6A11755FCF71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

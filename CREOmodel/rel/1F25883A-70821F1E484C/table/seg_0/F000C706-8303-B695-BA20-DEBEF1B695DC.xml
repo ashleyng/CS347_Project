@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F000C706-8303-B695-BA20-DEBEF1B695DC" name="CREO_escalation">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-19 21:16:52 UTC</createdTime>
+<generatorID>02DAF0C5-AF4D-DDA7-B33B-5EA4B72D8152</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="escalation_id" id="E8AAB756-BEDF-984D-8C83-26F72BF1987A">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-19 21:16:52 UTC</createdTime>
+<generatorID>177409C7-3552-DE8C-C9D0-6D9C9F8A1E27</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="56BAE33C-F512-353A-75B3-4FBDF6CEFEA9">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-19 21:16:52 UTC</createdTime>
+<generatorID>2114C13E-23CD-DA08-F9AE-818506F57EEE</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="amount" id="F981D076-02E1-378C-D25E-27D1AB5F7E04">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-19 21:16:52 UTC</createdTime>
+<generatorID>3CF91625-8622-CE25-B8E4-8E86824771EE</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="percentage" id="A3876FA5-527E-96C3-3C1F-B03B28310925">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-19 21:16:52 UTC</createdTime>
+<generatorID>AF7668CF-E717-7EDA-E256-CD56E55829C3</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="72DB5BF5-3485-E874-B282-12F5C87AEC62">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-19 21:16:52 UTC</createdTime>
+<generatorID>1BE76BA1-928A-A099-1B44-B8199D4B22FC</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA1B2E98-4519-2563-E712-ED56687AB05A" name="CREO_escalation_PK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-19 21:16:52 UTC</createdTime>
+<generatorID>2EF23312-E52D-9063-E04F-6DA0DC72B831</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8AAB756-BEDF-984D-8C83-26F72BF1987A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,2 +1,36 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<oracle.dbtools.crest.model.design.relational.RelationalDesign/>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="F4ECE542-1061-6571-778C-59BE7DA8BA1D" name="CREO_communication" seqName="seg_0"/>
+   <object objectType="Table" objectID="8CABE629-C5FB-2831-F35E-7AAD13421315" name="CREO_contact" seqName="seg_0"/>
+   <object objectType="Table" objectID="1C9DB4A7-461C-F9E5-9FCC-FEDD8AD6740E" name="CREO_cost" seqName="seg_0"/>
+   <object objectType="Table" objectID="A640340D-2E43-6935-2F47-C9A26453DCEA" name="CREO_document" seqName="seg_0"/>
+   <object objectType="Table" objectID="F000C706-8303-B695-BA20-DEBEF1B695DC" name="CREO_escalation" seqName="seg_0"/>
+   <object objectType="Table" objectID="70C85844-D820-2F16-1CE4-E71147712737" name="CREO_issue" seqName="seg_0"/>
+   <object objectType="Table" objectID="B880ABB1-2852-F9CE-5903-5991D8BE9510" name="CREO_item_esc" seqName="seg_0"/>
+   <object objectType="Table" objectID="F81E0BB7-0CE6-B9FA-87E5-0B8D3E591417" name="CREO_lease" seqName="seg_0"/>
+   <object objectType="Table" objectID="3DCF7D92-34EC-664C-25AF-1B3309D45F21" name="CREO_lease_item" seqName="seg_0"/>
+   <object objectType="Table" objectID="DBBCE430-1A7F-7381-1526-6E29784781B6" name="CREO_link" seqName="seg_0"/>
+   <object objectType="Table" objectID="5932FDEF-6026-A523-15DC-BF319CD56840" name="CREO_payment" seqName="seg_0"/>
+   <object objectType="Table" objectID="F50E5659-7BF3-12A6-E916-57E30E17728F" name="CREO_property" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B055855C-D178-DED1-9735-00FE76EB453C" name="CREO_communication_CREO_contact_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B226B6FC-11CF-15DF-5322-712FC1B600BF" name="CREO_contact_CREO_contact_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="BD057EAF-4783-8B3C-0DC2-37E06DF540F2" name="CREO_cost_CREO_contact_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B8BD74D3-D20C-F580-DD01-671F6E03F337" name="CREO_cost_CREO_lease_item_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="CAF3BD70-D188-9871-010D-869A84B32C9D" name="CREO_cost_CREO_property_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A1976B04-9141-069A-0668-CA3DE09D568A" name="CREO_document_CREO_contact_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E575B546-C7E2-1047-8FD4-D168D4324D5D" name="CREO_document_CREO_lease_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="7CF1C3AF-D3B7-00DE-B8D9-9C52CC19BD22" name="CREO_document_CREO_property_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="AED15F20-9941-0F75-AFAC-9ECE521680CE" name="CREO_issue_CREO_contact_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2E02F24C-A6FD-2CF2-749A-F8B4DDA5BB11" name="CREO_issue_CREO_lease_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="1174DC4D-C737-C0D3-AD76-BE5CA69F4D3B" name="CREO_issue_CREO_property_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="8587AABD-77B7-5F6A-36FE-E76B85E88045" name="CREO_item_esc_CREO_escalation_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C4EA1297-861F-5316-EA39-15C1C23D1773" name="CREO_item_esc_CREO_lease_item_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="4F4BA217-3F48-C837-9EA1-8D2FA28DC9DD" name="CREO_lease_CREO_contact_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="495092EC-1E44-ED8F-B2D8-9B94F2366DEE" name="CREO_lease_CREO_contact_FKv1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="13BFC135-4A7E-B53C-815B-CB5670A22DFE" name="CREO_lease_item_CREO_lease_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9E835A5B-6B54-1EE3-8E4B-50C8C376F341" name="CREO_link_CREO_contact_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D3C79645-6082-3F02-31A8-04EAE51D4F7B" name="CREO_link_CREO_lease_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="10D62690-6369-E944-A451-EB3A5A173235" name="CREO_link_CREO_property_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B952BD83-DABE-9A34-3953-06F00FC4EDE6" name="CREO_payment_CREO_contact_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C564C898-0575-3563-C57C-130E78A863E3" name="CREO_payment_CREO_lease_item_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

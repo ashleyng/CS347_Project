@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E575B546-C7E2-1047-8FD4-D168D4324D5D" name="CREO_document_CREO_lease_FK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-19 21:16:53 UTC</createdTime>
+<generatorID>115DB4FD-A195-E16D-D61F-AF03364BCB00</generatorID>
+<ownerDesignName>CREOmodel</ownerDesignName>
+<containerWithKeyObject>A640340D-2E43-6935-2F47-C9A26453DCEA</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>76A85D58-561C-0263-A9E6-7191803062D8</localFKIndex>
+<keyObject>1F509C6D-9FE0-B869-F2CA-4DA4A65BB12B</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
