@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="78C86697-1FEF-378F-3CC0-1153F1D0327B" name="BC_communication">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:24:57 UTC</createdTime>
+<generatorID>627BE73C-AA15-CE3B-C778-12BD13C0809A</generatorID>
+<ownerDesignName>Business_contract</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="commincation_id" id="C6199226-8D22-2984-3878-2B7D0B835072">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:24:57 UTC</createdTime>
+<generatorID>3C575B91-7F90-F3DF-29C1-9F5AC1C2880B</generatorID>
+<ownerDesignName>Business_contract</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="5DEFC629-3EE4-26B6-7B83-C71A2CF21C39">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:24:57 UTC</createdTime>
+<generatorID>08E9F8BD-E113-5075-0569-5D4B2FF09F86</generatorID>
+<ownerDesignName>Business_contract</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="notes" id="C0AAB94F-50FF-2F18-02F2-CBBBC1EE323B">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:24:57 UTC</createdTime>
+<generatorID>89D76609-E906-5F2F-903F-101D9F080576</generatorID>
+<ownerDesignName>Business_contract</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BC_contact_contact_id" id="AE77525A-6381-E3D4-CF33-6434743F8118">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:24:57 UTC</createdTime>
+<generatorID>A03BDC2D-5C02-024C-E925-2D1325F9A8D9</generatorID>
+<ownerDesignName>Business_contract</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>DAC5E8F4-7131-17D9-7131-4D7AA6CCB548</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A34A847E-AAE8-4EB1-ECFB-0DCD3AD8A5EA" referredColumn="DAC5E8F4-7131-17D9-7131-4D7AA6CCB548"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C60E03CC-2729-7883-5A75-751E4932D0AC" name="BC_communication_PK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:24:57 UTC</createdTime>
+<generatorID>BE5379ED-E132-0622-C0F2-79A078CF78C2</generatorID>
+<ownerDesignName>Business_contract</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6199226-8D22-2984-3878-2B7D0B835072"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="808619A3-D8D7-6FF4-7493-420FAC19D95C" name="BC_communication_BC_contact_FK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:24:57 UTC</createdTime>
+<generatorID>AAC179FB-D36F-5895-ACE7-22D847FE94DB</generatorID>
+<ownerDesignName>Business_contract</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE77525A-6381-E3D4-CF33-6434743F8118"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

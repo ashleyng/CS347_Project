@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="11D04294-8364-B220-77D1-487C28BCDACA" name="BC_cost">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:12:47 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cost_id" id="902E826F-ABC1-65FF-9B83-19CB05FB2DC9">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:12:52 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="amount" id="41CC6846-E469-80F5-89DA-D8C3C6383496">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:13:03 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+<Attribute name="account_id" id="59712D6E-5ADC-0D86-2431-BAE8CFACE33F">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:21:32 UTC</createdTime>
+<generatorID>433EE6B3-EF2F-EE28-CAAC-3F096AB6ED08</generatorID>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<referedAttribute>78572B58-4F53-F18C-6AD3-26AE5FDD9ED2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="contract_id" id="AD7F21DC-CB97-0760-1122-3C1AFCD3D896">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:24:22 UTC</createdTime>
+<generatorID>CD580D91-526F-1576-4657-45AF56835902</generatorID>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<referedAttribute>14831281-FEBD-BF8A-F23F-BE894402F76B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2CF52121-CAF5-78B2-3BDD-02DBA38FE416" name="BC_cost PK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:13:02 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>902E826F-ABC1-65FF-9B83-19CB05FB2DC9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E68C4C21-B3F8-C8AB-FA1A-817A4B164770" name="BC_account">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:24:57 UTC</createdTime>
+<generatorID>17D17C20-4C4D-D6CC-3485-EEF185B5DE67</generatorID>
+<ownerDesignName>Business_contract</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="account_id" id="8018A318-6B21-B3A0-0F31-E490FCCC994B">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:24:57 UTC</createdTime>
+<generatorID>78572B58-4F53-F18C-6AD3-26AE5FDD9ED2</generatorID>
+<ownerDesignName>Business_contract</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32DA8206-D53C-EEDA-FCC1-27626E3D93A6" name="BC_account_PK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:24:57 UTC</createdTime>
+<generatorID>80BDFB8C-AC2C-F955-800A-4028AB6F0CDC</generatorID>
+<ownerDesignName>Business_contract</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8018A318-6B21-B3A0-0F31-E490FCCC994B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

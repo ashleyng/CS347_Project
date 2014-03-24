@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="359C0280-2ACA-4578-AD7E-B76099C516FF" name="BC_cost">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:24:57 UTC</createdTime>
+<generatorID>11D04294-8364-B220-77D1-487C28BCDACA</generatorID>
+<ownerDesignName>Business_contract</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cost_id" id="E921523D-9AD8-6885-E918-BD54439B1918">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:24:57 UTC</createdTime>
+<generatorID>902E826F-ABC1-65FF-9B83-19CB05FB2DC9</generatorID>
+<ownerDesignName>Business_contract</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="amount" id="AE9026DF-A749-90C5-5D91-F7331D93F848">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:24:57 UTC</createdTime>
+<generatorID>41CC6846-E469-80F5-89DA-D8C3C6383496</generatorID>
+<ownerDesignName>Business_contract</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BC_account_account_id" id="90D1C393-2907-3705-17A4-81A735F66DB9">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:24:57 UTC</createdTime>
+<generatorID>59712D6E-5ADC-0D86-2431-BAE8CFACE33F</generatorID>
+<ownerDesignName>Business_contract</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>8018A318-6B21-B3A0-0F31-E490FCCC994B</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19EC7E3B-8E95-14A8-60CB-AC0B5129316C" referredColumn="8018A318-6B21-B3A0-0F31-E490FCCC994B"/>
+</associations>
+</Column>
+<Column name="BC_contract_contract_id" id="31B41FB6-BE29-392E-7374-A3E1639FFC52">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:24:57 UTC</createdTime>
+<generatorID>AD7F21DC-CB97-0760-1122-3C1AFCD3D896</generatorID>
+<ownerDesignName>Business_contract</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>95E0FEC5-854E-4376-A843-A87F590CBE59</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23DF6FCC-671E-AF21-AB66-8B724E049D0B" referredColumn="95E0FEC5-854E-4376-A843-A87F590CBE59"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="218590D2-9050-806A-B5C1-1C221E03B888" name="BC_cost_PK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:24:57 UTC</createdTime>
+<generatorID>2CF52121-CAF5-78B2-3BDD-02DBA38FE416</generatorID>
+<ownerDesignName>Business_contract</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E921523D-9AD8-6885-E918-BD54439B1918"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1596B2E3-74DA-66FF-A0B3-2CCCBBDC5822" name="BC_cost__IDX">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:24:57 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CD580D91-526F-1576-4657-45AF56835902</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="31B41FB6-BE29-392E-7374-A3E1639FFC52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7F1976A-B576-E4E3-4B8B-F3A39A9F3CAF" name="BC_cost_BC_contract_FK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:24:57 UTC</createdTime>
+<generatorID>CD580D91-526F-1576-4657-45AF56835902</generatorID>
+<ownerDesignName>Business_contract</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31B41FB6-BE29-392E-7374-A3E1639FFC52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA8D1CFC-7691-807F-9BD0-E3EC9E3782E3" name="BC_cost_BC_account_FK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:24:57 UTC</createdTime>
+<generatorID>433EE6B3-EF2F-EE28-CAAC-3F096AB6ED08</generatorID>
+<ownerDesignName>Business_contract</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90D1C393-2907-3705-17A4-81A735F66DB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

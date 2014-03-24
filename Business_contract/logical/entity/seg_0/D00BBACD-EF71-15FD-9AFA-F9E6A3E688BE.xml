@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D00BBACD-EF71-15FD-9AFA-F9E6A3E688BE" name="BC_contract">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:07:26 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="contract_id" id="14831281-FEBD-BF8A-F23F-BE894402F76B">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:07:40 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="start_date" id="75ED2447-476A-B830-30AD-8BAFE5EEDFDE">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:07:55 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="end_date" id="9AA14504-D055-450B-C427-3E27A52514CD">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:08:04 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Attribute>
+<Attribute name="purpose" id="CD0BAA5A-5BAE-7CA9-923D-B1A37B97ADCC">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:08:11 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="contract_administrator" id="1BDAC9BA-982C-5E39-4F04-C28E6ADF360D">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:18:34 UTC</createdTime>
+<generatorID>3683209A-3C8E-071C-C44A-4B27CCDADC33</generatorID>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<referedAttribute>EA6FC033-D6D8-7DF7-778C-474819B4C2B3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="vendor_id" id="871D47C1-FDFC-73BE-D6CF-B77D0327A859">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:19:52 UTC</createdTime>
+<generatorID>DB244469-F330-E683-F3C8-0A05BCC2ACE2</generatorID>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<referedAttribute>50DA39DC-8268-F490-C74D-1AAC1B6A7609</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="account_id" id="BE9FB8DA-4FA4-436E-DEB0-12F43332BABB">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:21:15 UTC</createdTime>
+<generatorID>690BD3C9-8F71-44D4-462D-24B0C5A765DF</generatorID>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<referedAttribute>78572B58-4F53-F18C-6AD3-26AE5FDD9ED2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="departmental_contact" id="D4721B09-1C67-B9D1-22FD-DC216BF72410">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:23:13 UTC</createdTime>
+<generatorID>7970B791-C93D-7FE5-8FF1-8D6DD755889A</generatorID>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<referedAttribute>9A84430C-0170-73FB-82D8-6222E6699A28</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="checklist_id" id="EF8361E0-9AEE-9C1E-7CEC-2782CFB63A4C">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:24:03 UTC</createdTime>
+<generatorID>3AF86AA4-83BB-80AA-07DB-C7458E628CCB</generatorID>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<referedAttribute>43D38FB1-18B8-1CA4-50C6-E4096FCA6F3E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="cost_id" id="A65BC9F7-AB5E-A05E-BDFA-75F15FEC35F1">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:24:26 UTC</createdTime>
+<generatorID>CD580D91-526F-1576-4657-45AF56835902</generatorID>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<referedAttribute>902E826F-ABC1-65FF-9B83-19CB05FB2DC9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="041D68AA-74F4-9800-533D-09BC0BBF643D" name="BC_contract PK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-03-24 05:07:53 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>14831281-FEBD-BF8A-F23F-BE894402F76B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
