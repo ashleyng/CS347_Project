@@ -1,28 +1,28 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
-   <object objectType="Table" objectID="E68C4C21-B3F8-C8AB-FA1A-817A4B164770" name="BC_account" seqName="seg_0"/>
-   <object objectType="Table" objectID="7DA1C22A-EB89-E179-F1C1-413D3671711B" name="BC_amendment" seqName="seg_0"/>
-   <object objectType="Table" objectID="4A39C432-CAEF-EAC5-4179-9D3FFB195F23" name="BC_checklist" seqName="seg_0"/>
-   <object objectType="Table" objectID="78C86697-1FEF-378F-3CC0-1153F1D0327B" name="BC_communication" seqName="seg_0"/>
-   <object objectType="Table" objectID="BFC4281F-AE20-4EB0-D963-C95DDE10FF7B" name="BC_contact" seqName="seg_0"/>
    <object objectType="Table" objectID="327D4E5F-32C5-94B4-4229-89B4903C7512" name="BC_contract" seqName="seg_0"/>
    <object objectType="Table" objectID="359C0280-2ACA-4578-AD7E-B76099C516FF" name="BC_cost" seqName="seg_0"/>
    <object objectType="Table" objectID="41DB9FBE-CB88-3609-54A3-9CD00C181B1D" name="BC_department" seqName="seg_0"/>
+   <object objectType="Table" objectID="4A39C432-CAEF-EAC5-4179-9D3FFB195F23" name="BC_checklist" seqName="seg_0"/>
    <object objectType="Table" objectID="623C701A-0F8B-DCF9-5CC2-37A978054269" name="BC_document" seqName="seg_0"/>
+   <object objectType="Table" objectID="78C86697-1FEF-378F-3CC0-1153F1D0327B" name="BC_communication" seqName="seg_0"/>
+   <object objectType="Table" objectID="7DA1C22A-EB89-E179-F1C1-413D3671711B" name="BC_amendment" seqName="seg_0"/>
+   <object objectType="Table" objectID="BFC4281F-AE20-4EB0-D963-C95DDE10FF7B" name="BC_contact" seqName="seg_0"/>
    <object objectType="Table" objectID="D31C7DB1-DCD8-0072-34ED-ECC19A7E2EE2" name="BC_vendor" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="6012F7E4-DF33-DF9B-0682-F5F252DAD681" name="BC_amendment_BC_contract_FK" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="AF8558BC-831D-6A57-9296-274358757982" name="BC_checklist_BC_account_FK" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="D335D07A-6531-2D3E-0280-14A529105F7D" name="BC_checklist_BC_contract_FK" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="EB0FE574-935D-31A8-1A9D-49B18A6A837A" name="BC_checklist_BC_department_FK" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="A34A847E-AAE8-4EB1-ECFB-0DCD3AD8A5EA" name="BC_communication_BC_contact_FK" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="7CAAF859-2431-359E-64DE-633A4D36968E" name="BC_contact_BC_department_FK" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="ED8E14F0-F60E-0220-7BFF-54E090219A1B" name="BC_contract_BC_account_FK" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="93A6542D-CAB2-6A41-B173-90646F17B7FE" name="BC_contract_BC_checklist_FK" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="7B6E32B9-5A39-6BB2-C2CA-FE298DAE7F1F" name="BC_contract_BC_contact_FK" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="D5432597-D2FC-03A6-AD53-E6109189E508" name="BC_contract_BC_cost_FK" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="C952F7A1-B7EF-48C1-1CE0-B81D593627F0" name="BC_contract_BC_department_FK" seqName="seg_0"/>
+   <object objectType="Table" objectID="E68C4C21-B3F8-C8AB-FA1A-817A4B164770" name="BC_account" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="14F82E1D-1E7E-0F96-90A5-6F87C421CBA3" name="BC_contract_BC_vendor_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="19EC7E3B-8E95-14A8-60CB-AC0B5129316C" name="BC_cost_BC_account_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="23DF6FCC-671E-AF21-AB66-8B724E049D0B" name="BC_cost_BC_contract_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6012F7E4-DF33-DF9B-0682-F5F252DAD681" name="BC_amendment_BC_contract_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="7B6E32B9-5A39-6BB2-C2CA-FE298DAE7F1F" name="BC_contract_BC_contact_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="7CAAF859-2431-359E-64DE-633A4D36968E" name="BC_contact_BC_department_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="8D1DE382-6A79-4DB2-14AF-4AE672D15E9C" name="BC_document_BC_contract_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="93A6542D-CAB2-6A41-B173-90646F17B7FE" name="BC_contract_BC_checklist_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A34A847E-AAE8-4EB1-ECFB-0DCD3AD8A5EA" name="BC_communication_BC_contact_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="AF8558BC-831D-6A57-9296-274358757982" name="BC_checklist_BC_account_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C952F7A1-B7EF-48C1-1CE0-B81D593627F0" name="BC_contract_BC_department_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D335D07A-6531-2D3E-0280-14A529105F7D" name="BC_checklist_BC_contract_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D5432597-D2FC-03A6-AD53-E6109189E508" name="BC_contract_BC_cost_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="EB0FE574-935D-31A8-1A9D-49B18A6A837A" name="BC_checklist_BC_department_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="ED8E14F0-F60E-0220-7BFF-54E090219A1B" name="BC_contract_BC_account_FK" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>

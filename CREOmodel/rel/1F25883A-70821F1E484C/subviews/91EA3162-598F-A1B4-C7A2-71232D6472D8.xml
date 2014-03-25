@@ -104,6 +104,8 @@
 <lineWidth>1</lineWidth>
 <points>
 <point x="1208" y="320"/>
+<point x="1039" y="469"/>
+<point x="1040" y="328"/>
 <point x="411" y="320"/>
 </points>
 </Connector>
@@ -111,7 +113,7 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1208" y="360"/>
+<point x="1095" y="574"/>
 <point x="411" y="360"/>
 </points>
 </Connector>
@@ -137,7 +139,7 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1340" y="316"/>
+<point x="1262" y="417"/>
 <point x="1340" y="248"/>
 </points>
 </Connector>
@@ -145,7 +147,7 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1208" y="408"/>
+<point x="1131" y="417"/>
 <point x="1131" y="408"/>
 <point x="1131" y="231"/>
 </points>
@@ -164,7 +166,7 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1326" y="631"/>
+<point x="1360" y="697"/>
 <point x="1326" y="683"/>
 </points>
 </Connector>
@@ -172,11 +174,11 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1473" y="613"/>
-<point x="1495" y="613"/>
-<point x="1495" y="665"/>
-<point x="1434" y="666"/>
-<point x="1434" y="631"/>
+<point x="1360" y="714"/>
+<point x="1382" y="714"/>
+<point x="1382" y="766"/>
+<point x="1321" y="767"/>
+<point x="1321" y="732"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="B8BD74D3-D20C-F580-DD01-671F6E03F337" otype="FKIndexAssociation" vid_source="08D9F688-427F-98B6-8CF6-3995C008B525" vid_target="725F0FFE-3A71-C928-A6E3-F527A7E342FB">
@@ -192,7 +194,7 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1208" y="601"/>
+<point x="1095" y="651"/>
 <point x="1032" y="601"/>
 </points>
 </Connector>
@@ -200,7 +202,7 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1208" y="621"/>
+<point x="1133" y="574"/>
 <point x="1133" y="621"/>
 <point x="1136" y="778"/>
 <point x="734" y="778"/>

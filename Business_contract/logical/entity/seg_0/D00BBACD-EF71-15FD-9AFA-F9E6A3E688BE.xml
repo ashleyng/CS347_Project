@@ -140,6 +140,174 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+<Attribute name="received_date" id="31FDA115-2148-C519-2F2D-5C013E224B58">
+<createdBy>Jared</createdBy>
+<createdTime>2014-03-25 00:00:48 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="ongoing" id="94091053-7F0E-A838-ACD4-242123A24B19">
+<createdBy>Jared</createdBy>
+<createdTime>2014-03-25 00:01:28 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="renewable" id="FF2D74A6-1684-5C45-DBAA-C7BFF49444DE">
+<createdBy>Jared</createdBy>
+<createdTime>2014-03-25 00:01:43 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="foreign" id="547B1D51-7881-E94A-96DE-39D05D1F1927">
+<createdBy>Jared</createdBy>
+<createdTime>2014-03-25 00:01:52 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="notes" id="B5483204-4F93-13EC-F921-4CFA6FA6D283">
+<createdBy>Jared</createdBy>
+<createdTime>2014-03-25 00:02:50 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="facility_use_of_UT_building" id="67940988-96A4-46BF-A3E7-4457B241194C">
+<createdBy>Jared</createdBy>
+<createdTime>2014-03-25 00:07:11 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="service_type" id="93392226-E649-2200-E7B4-B872571379D0">
+<createdBy>Jared</createdBy>
+<createdTime>2014-03-25 00:08:36 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+</Attribute>
+<Attribute name="status" id="802E7849-2349-7B91-04D1-A44A63904BBE">
+<createdBy>Jared</createdBy>
+<createdTime>2014-03-25 00:16:01 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="reviewed_by" id="22E2F0DE-C1EB-BB4B-1BD0-17D07A033CAA">
+<createdBy>Jared</createdBy>
+<createdTime>2014-03-25 00:16:22 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="signed_by" id="A15B8FC2-5522-BDEE-A9DD-B5AFD604C3E7">
+<createdBy>Jared</createdBy>
+<createdTime>2014-03-25 00:16:22 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="signed_date" id="36B0B832-C045-0A95-F276-8C4B3E696EAF">
+<createdBy>Jared</createdBy>
+<createdTime>2014-03-25 00:16:36 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="programatic_approval" id="5E0DA513-694D-95DF-94AE-CB219639805E">
+<createdBy>Jared</createdBy>
+<createdTime>2014-03-25 00:17:18 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="return_date" id="A3A7F60B-A049-1CF3-47BC-9CE7DBD02808">
+<createdBy>Jared</createdBy>
+<createdTime>2014-03-25 00:26:14 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

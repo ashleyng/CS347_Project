@@ -91,6 +91,19 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
 </Attribute>
+<Attribute name="country" id="F94D2699-CD65-2BFF-D196-5D61751DE890">
+<createdBy>Jared</createdBy>
+<createdTime>2014-03-25 00:04:03 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="AA108CBD-F5CD-10E5-17CE-5863A691D28A" name="BC_vendor PK">

@@ -26,32 +26,6 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 </Attribute>
-<Attribute name="account_id" id="21E0FF3E-FDDE-5E99-2171-317A1EA1E1F3">
-<createdBy>ashleyng</createdBy>
-<createdTime>2014-03-24 05:21:56 UTC</createdTime>
-<generatorID>1E79708D-B723-A7AF-9BF9-702B8A42C2E4</generatorID>
-<ownerDesignName>Business_contract</ownerDesignName>
-<engineerTo>
-<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
-</engineerTo>
-<referedAttribute>78572B58-4F53-F18C-6AD3-26AE5FDD9ED2</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-</Attribute>
-<Attribute name="department_id" id="E43F1922-2FF1-5E81-F282-4EE48FEAA408">
-<createdBy>ashleyng</createdBy>
-<createdTime>2014-03-24 05:22:53 UTC</createdTime>
-<generatorID>FD6C157B-C616-AE21-85CA-2DB2FA3C8672</generatorID>
-<ownerDesignName>Business_contract</ownerDesignName>
-<engineerTo>
-<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
-</engineerTo>
-<referedAttribute>9A84430C-0170-73FB-82D8-6222E6699A28</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-</Attribute>
 <Attribute name="contract_id" id="81ADAF49-C006-C319-B3DD-0D4C16B39721">
 <createdBy>ashleyng</createdBy>
 <createdTime>2014-03-24 05:24:00 UTC</createdTime>

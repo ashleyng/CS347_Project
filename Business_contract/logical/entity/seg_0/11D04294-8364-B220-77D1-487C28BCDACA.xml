@@ -25,6 +25,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
 </Attribute>
 <Attribute name="amount" id="41CC6846-E469-80F5-89DA-D8C3C6383496">
 <createdBy>ashleyng</createdBy>

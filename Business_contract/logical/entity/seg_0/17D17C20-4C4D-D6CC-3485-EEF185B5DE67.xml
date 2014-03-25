@@ -26,6 +26,19 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 </Attribute>
+<Attribute name="type" id="A6968123-3F52-DF7F-4457-FE308EC59810">
+<createdBy>Jared</createdBy>
+<createdTime>2014-03-25 00:09:30 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="80BDFB8C-AC2C-F955-800A-4028AB6F0CDC" name="BC_account PK">
