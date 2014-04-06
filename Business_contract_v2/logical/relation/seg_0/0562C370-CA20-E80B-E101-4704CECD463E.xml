@@ -8,7 +8,7 @@
 </engineerTo>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>C798FBFB-01E3-3E20-A363-6121C82773D4</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>

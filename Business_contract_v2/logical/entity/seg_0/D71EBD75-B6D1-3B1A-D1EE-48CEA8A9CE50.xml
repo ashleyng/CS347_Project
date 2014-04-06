@@ -278,6 +278,7 @@
 <engineerTo>
 <item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>C77C9D26-9C40-F705-0BFC-39DFAC9D1ED7</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -291,7 +292,22 @@
 <engineerTo>
 <item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>AD8901CD-B9E1-5E83-DAD9-D64F1433B8B6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="checklist_id" id="3180EF6A-487B-4A25-AFC5-062F702DEE18">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 19:01:28 UTC</createdTime>
+<generatorID>36D34B6F-AD4F-F158-5D7E-9EC1F5085C89</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>806F6A1F-FB43-FE2F-36E0-7216B2B76700</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>

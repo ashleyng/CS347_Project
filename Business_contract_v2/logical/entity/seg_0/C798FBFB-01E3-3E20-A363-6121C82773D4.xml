@@ -92,5 +92,19 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
 </Attribute>
+<Attribute name="department_id" id="954281AD-3EEB-8A26-3A10-C2B535D5DFD1">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 19:05:08 UTC</createdTime>
+<generatorID>7553F5F7-84F7-BC38-3469-EC8FAABB451F</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>AD8901CD-B9E1-5E83-DAD9-D64F1433B8B6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
 </attributes>
 </Entity>
