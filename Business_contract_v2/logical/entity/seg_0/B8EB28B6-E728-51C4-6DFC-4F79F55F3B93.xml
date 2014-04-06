@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B8EB28B6-E728-51C4-6DFC-4F79F55F3B93" name="BC_department">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:44:19 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="department_id" id="AD8901CD-B9E1-5E83-DAD9-D64F1433B8B6">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:44:19 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>9A84430C-0170-73FB-82D8-6222E6699A28</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="name" id="91164CF8-65B8-F9F2-08F4-DDD0CCFA1C09">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:44:19 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>BDDE18CD-4F21-4B0B-75E8-22A696D12183</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F4F237E2-FAEE-543C-A1EB-3CA6093E4230" name="BC_department PK">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:44:19 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AD8901CD-B9E1-5E83-DAD9-D64F1433B8B6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

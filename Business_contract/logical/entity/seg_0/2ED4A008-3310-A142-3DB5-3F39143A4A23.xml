@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2ED4A008-3310-A142-3DB5-3F39143A4A23" name="BC_system_approval">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:19:39 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="system_approval_id" id="6C95A106-629C-A9E7-1592-8A3DC3645D30">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:19:52 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="OGC" id="105527A4-0AEB-4145-1C1E-B0DF13586E30">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:20:25 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="EVC" id="2A7A7C8E-E17D-1EF7-3EBF-AEE61DCD2330">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:20:43 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="BOR" id="435461AF-62A8-8FC0-C32A-2A6B462D1C51">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:21:04 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="contract_id" id="E75CC139-2335-B3FF-248B-EC022031058F">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:22:16 UTC</createdTime>
+<generatorID>325E96DD-DAC2-D2DD-162A-347600427B58</generatorID>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<referedAttribute>14831281-FEBD-BF8A-F23F-BE894402F76B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9D5A292F-428E-8704-513F-D5D0397BDC40" name="BC_system_approval PK">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:20:23 UTC</createdTime>
+<ownerDesignName>Business_contract</ownerDesignName>
+<engineerTo>
+<item key="85634F18-F01B-201B-CE66-09A1F18B187A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6C95A106-629C-A9E7-1592-8A3DC3645D30</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

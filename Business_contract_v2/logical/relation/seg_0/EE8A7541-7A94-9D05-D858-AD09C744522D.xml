@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="invoices_to_payment" directorySegmentName="seg_0" id="EE8A7541-7A94-9D05-D858-AD09C744522D">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 17:58:14 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>358A2A9A-D09D-E058-EDD4-2D4D3C2589EC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2587B050-8FA8-04C8-57CD-0BAAC56E5D63</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F5EEBE3-EE66-96F7-E233-1B5B73533FEA" name="BC_department_contact">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 17:34:07 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="department_contact_id" id="37388E4C-B1A7-C6DD-289E-4305C9D80186">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 17:34:57 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="contract_id" id="F4428C22-5636-48BF-08E4-FC6BC1A60A2F">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 17:36:27 UTC</createdTime>
+<generatorID>97764D41-8D05-63B0-A408-A8669564A09E</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<referedAttribute>13A0FC31-1744-5F57-9D14-69703F5EEF26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="87D1B7F9-26C1-B7F9-0938-2D39DFEBB616" name="BC_department_contact PK">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 17:35:26 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>37388E4C-B1A7-C6DD-289E-4305C9D80186</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="vendor_to_vendor_contact" directorySegmentName="seg_0" id="B26D1FDC-FD57-CAF3-AFAC-BB2A8A834649">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 17:48:48 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<sourcePk>D27E971C-DBEF-F989-8D57-1C52632ED40F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B78A39A6-90C9-2BF2-0DB7-01E27974EDCB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>72A4E1BB-7E98-7E1D-55AB-DB7BFA694951</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

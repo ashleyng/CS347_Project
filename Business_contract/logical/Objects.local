@@ -4,6 +4,7 @@
    <object objectType="Entity" objectID="17D17C20-4C4D-D6CC-3485-EEF185B5DE67" name="BC_account" seqName="seg_0"/>
    <object objectType="Entity" objectID="1B257D42-D352-7AF4-794E-31479E06D3F8" name="BC_vendor" seqName="seg_0"/>
    <object objectType="Entity" objectID="2C7F8DCC-4199-9BD5-FE50-6DD7BA616430" name="BC_department" seqName="seg_0"/>
+   <object objectType="Entity" objectID="2ED4A008-3310-A142-3DB5-3F39143A4A23" name="BC_system_approval" seqName="seg_0"/>
    <object objectType="Entity" objectID="627BE73C-AA15-CE3B-C778-12BD13C0809A" name="BC_communication" seqName="seg_0"/>
    <object objectType="Entity" objectID="65D8DB39-2C15-4C39-387E-6CB61148A364" name="BC_checklist" seqName="seg_0"/>
    <object objectType="Entity" objectID="7962BC4F-31D2-B131-D2C9-7BA27B051EC8" name="BC_amendment" seqName="seg_0"/>
@@ -11,6 +12,7 @@
    <object objectType="Entity" objectID="D00BBACD-EF71-15FD-9AFA-F9E6A3E688BE" name="BC_contract" seqName="seg_0"/>
    <object objectType="Entity" objectID="EDBA3ECF-2A52-BCAD-3FB8-722F61809442" name="BC_document" seqName="seg_0"/>
    <object objectType="Relation" objectID="08E592A0-731D-1F3B-F8E2-40475324450C" name="Relation_4" seqName="seg_0"/>
+   <object objectType="Relation" objectID="325E96DD-DAC2-D2DD-162A-347600427B58" name="Relation_17" seqName="seg_0"/>
    <object objectType="Relation" objectID="32FC8C51-9985-9AAD-1405-27A57ADE3F96" name="Relation_3" seqName="seg_0"/>
    <object objectType="Relation" objectID="3683209A-3C8E-071C-C44A-4B27CCDADC33" name="Relation_1" seqName="seg_0"/>
    <object objectType="Relation" objectID="385006DB-31E0-D546-ED63-DC7147EB483D" name="Relation_8" seqName="seg_0"/>

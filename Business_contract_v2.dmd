@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Business_contract_v2" id="471694C8-F74B-09DA-9897-27926E4AE8AB" version="3.5">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:02 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>471694C8-F74B-09DA-9897-27926E4AE8AB</designId>
+</OSDM_Design>

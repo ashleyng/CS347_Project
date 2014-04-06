@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="44038AEA-A609-9FD5-E33E-C909F4182CA2" name="BC_document">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:45:08 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="document_id" id="77764EC0-13C1-F1CB-64E7-891B4718C894">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:45:08 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>B8EADA72-7715-67F8-D22C-DFDCE81DB681</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="filename" id="19286196-3090-AD99-E66B-8B7E843FC3E4">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:45:08 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>12606804-A400-E549-6739-0299734C17FE</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="file_mimetype" id="954273AA-A324-A556-A462-983C00244BE6">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:45:08 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>5E824B1A-4201-F040-D54D-338BCEC6DD8F</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512</dataTypeSize>
+</Attribute>
+<Attribute name="file_charset" id="35598923-AA05-A00A-3045-D2140CC4B15E">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:45:08 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>E03E7695-6B30-C8E5-7609-6E32BADC44A7</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512</dataTypeSize>
+</Attribute>
+<Attribute name="file_blob" id="AF6D78E0-C6F9-7DA1-741F-0C1DF85201B5">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:45:08 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>4E07A44C-415E-30ED-4876-E099A35847BE</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+</Attribute>
+<Attribute name="file_comment" id="FFAC6AD4-3912-9ED5-A9DA-31B3B2EE06DF">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:45:08 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>4625F1AA-9A54-6DDA-B277-D09661C65FDD</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="tags" id="37EB331C-8E07-B8DC-A164-AC759E31B972">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:45:08 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>AE6DD7D4-26DB-F305-5048-F14E361397E3</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="contract_id" id="3DCD1D71-2807-DF8E-1DD9-5EE71F7D6EEE">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 17:44:49 UTC</createdTime>
+<generatorID>5AFC0032-FC61-BCA6-DA10-3D3794A05E7B</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<referedAttribute>13A0FC31-1744-5F57-9D14-69703F5EEF26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="amendment_id" id="9CE9ED2A-B371-15C9-9FB6-70597FB3EF25">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 17:49:30 UTC</createdTime>
+<generatorID>BCF85238-6856-83E8-BA25-33195001D9AC</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<referedAttribute>EF6A1DCC-E3FA-B969-E06F-151C0520AF03</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7CA395B2-F726-6B21-2DA2-747F0CA750C4" name="BC_document PK">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:45:08 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>77764EC0-13C1-F1CB-64E7-891B4718C894</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

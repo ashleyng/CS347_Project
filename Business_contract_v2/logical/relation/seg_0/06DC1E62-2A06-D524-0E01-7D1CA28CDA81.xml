@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="employee_to_notes" directorySegmentName="seg_0" id="06DC1E62-2A06-D524-0E01-7D1CA28CDA81">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 17:53:25 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C798FBFB-01E3-3E20-A363-6121C82773D4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>12E352F4-40B1-14F6-E708-104FE9D9F304</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

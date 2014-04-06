@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="contract_to_amendment" directorySegmentName="seg_0" id="5C7252D2-FBA6-6E08-05A0-5AB9EDC74677">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 17:38:59 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<sourcePk>C3F4A172-9BC7-6088-F4BA-BE34F231FADF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D71EBD75-B6D1-3B1A-D1EE-48CEA8A9CE50</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>55F330FF-EF81-608B-B2AE-C1D7BA209BAF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

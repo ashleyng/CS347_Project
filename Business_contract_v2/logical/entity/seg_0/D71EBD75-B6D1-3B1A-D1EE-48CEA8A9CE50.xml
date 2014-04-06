@@ -1,0 +1,314 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D71EBD75-B6D1-3B1A-D1EE-48CEA8A9CE50" name="BC_contract">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:15 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="contract_id" id="13A0FC31-1744-5F57-9D14-69703F5EEF26">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:15 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>14831281-FEBD-BF8A-F23F-BE894402F76B</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="start_date" id="B7E1F137-FE31-E464-A25E-5310A262A045">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:15 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>75ED2447-476A-B830-30AD-8BAFE5EEDFDE</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="end_date" id="DF61EAF1-FC15-D97E-A91F-486B576C341B">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:15 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>9AA14504-D055-450B-C427-3E27A52514CD</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Attribute>
+<Attribute name="purpose" id="3E22B213-E10A-3F89-E632-296EE6E6296F">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:15 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>CD0BAA5A-5BAE-7CA9-923D-B1A37B97ADCC</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="contract_administrator" id="AB94A190-4315-4384-E877-157D9EC5EC1A">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:15 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>1BDAC9BA-982C-5E39-4F04-C28E6ADF360D</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="departmental_contact" id="FDE3FE83-96E8-22CC-0D1E-3948463BFABB">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:15 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>D4721B09-1C67-B9D1-22FD-DC216BF72410</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="received_date" id="8C42CDE3-5BE9-A6B1-DFD1-99C83F16AA1C">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:15 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>31FDA115-2148-C519-2F2D-5C013E224B58</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="ongoing" id="B48E3AEB-B743-FAED-F7EC-F146DB89D9B0">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:15 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>94091053-7F0E-A838-ACD4-242123A24B19</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="renewable" id="38D8B388-FDC7-7BF4-69B7-FD1221408AC1">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:15 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>FF2D74A6-1684-5C45-DBAA-C7BFF49444DE</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="foreign" id="8DAD8B19-3D8A-433E-78E7-FD00DB424EF1">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:15 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>547B1D51-7881-E94A-96DE-39D05D1F1927</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="notes" id="45B07D54-BFA6-B803-F4A3-727515419B8F">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:15 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>B5483204-4F93-13EC-F921-4CFA6FA6D283</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="facility_use_of_UT_building" id="4A79F1B9-8623-D10E-CA1A-80B69B7EB019">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:15 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>67940988-96A4-46BF-A3E7-4457B241194C</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="service_type" id="86F7F1FA-CFC4-C5B0-99D0-FD9392988124">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:15 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>93392226-E649-2200-E7B4-B872571379D0</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+</Attribute>
+<Attribute name="status" id="36A627C9-88F5-182D-EBF0-9ED4FBDF7A29">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:15 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>802E7849-2349-7B91-04D1-A44A63904BBE</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="reviewed_by" id="655F46E5-AFAA-61FA-B7ED-0DCBF7D6D7A7">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:15 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>22E2F0DE-C1EB-BB4B-1BD0-17D07A033CAA</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="signed_by" id="1968BA56-449D-F948-37B5-A9BEB48902BB">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:15 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>A15B8FC2-5522-BDEE-A9DD-B5AFD604C3E7</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="signed_date" id="AFC53AB5-5D74-FF83-5EE1-1C1E079DEF0C">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:15 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>36B0B832-C045-0A95-F276-8C4B3E696EAF</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="programatic_approval" id="F9B5266F-5914-0300-0508-B02E39EB1C5F">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:15 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>5E0DA513-694D-95DF-94AE-CB219639805E</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="return_date" id="29138EBC-8BAE-169B-4395-622552CE22C3">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:15 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>A3A7F60B-A049-1CF3-47BC-9CE7DBD02808</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="vendor_id" id="8C698DC2-1C98-8971-D4E1-23D78ECAAC80">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 17:40:32 UTC</createdTime>
+<generatorID>679A2C55-5B55-A1D5-7DE2-7DF804CC8894</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<referedAttribute>C77C9D26-9C40-F705-0BFC-39DFAC9D1ED7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="department_id" id="00259573-C920-5A33-0D10-031B090CC008">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 17:42:35 UTC</createdTime>
+<generatorID>FE6CE8AA-A19F-C1D4-8C04-C1E9BFF951D8</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<referedAttribute>AD8901CD-B9E1-5E83-DAD9-D64F1433B8B6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C3F4A172-9BC7-6088-F4BA-BE34F231FADF" name="BC_contract PK">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:15 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>13A0FC31-1744-5F57-9D14-69703F5EEF26</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

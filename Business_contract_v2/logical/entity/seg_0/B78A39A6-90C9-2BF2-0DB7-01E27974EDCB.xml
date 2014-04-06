@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B78A39A6-90C9-2BF2-0DB7-01E27974EDCB" name="BC_vendor">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:45 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="vendor_id" id="C77C9D26-9C40-F705-0BFC-39DFAC9D1ED7">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:45 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>50DA39DC-8268-F490-C74D-1AAC1B6A7609</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="name" id="C6C06327-DC0A-A982-95BE-F56468BEDC7E">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:45 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>1FF9FABD-5F71-07BA-0246-69AEDF421ECB</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="address" id="44E72624-A72F-B288-1260-7D21B9AD2662">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:45 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>E968C2E6-19EF-4AFF-D4C0-AE3AF5D32F05</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+</Attribute>
+<Attribute name="city" id="4F9D4D25-373E-00DE-A493-449D2BB19D11">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:45 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>EB596F53-2F65-F051-B914-3560B898336F</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="state" id="70AA199F-A49D-D91A-47B1-AC0B69EDD5E1">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:45 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>1DCBD515-4A9F-CF3E-F9B5-97F6FCA2FF22</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="zip" id="25E18E9E-F3A3-8857-3743-ADD3ADE2D6DA">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:45 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>D170C372-7F80-7A27-7D23-8F0C6D36AEC0</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="country" id="7A7CC207-FE04-47B4-AC1A-660FFA66D945">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:45 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<importedID>F94D2699-CD65-2BFF-D196-5D61751DE890</importedID>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D27E971C-DBEF-F989-8D57-1C52632ED40F" name="BC_vendor PK">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-06 16:43:45 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C77C9D26-9C40-F705-0BFC-39DFAC9D1ED7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
