@@ -4,7 +4,7 @@
 <createdTime>2014-04-06 17:14:23 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,9 +20,8 @@
 <createdTime>2014-04-06 17:14:48 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -32,7 +31,7 @@
 <createdTime>2014-04-06 17:15:22 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -44,7 +43,7 @@
 <createdTime>2014-04-06 17:15:36 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -58,12 +57,27 @@
 <generatorID>D22803EF-5DE8-7A3A-380D-3D1059E9D9CF</generatorID>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>13A0FC31-1744-5F57-9D14-69703F5EEF26</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="211F527A-EE83-763D-EAD8-7D029011EF40" name="BC_tickler PK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-06 19:11:12 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>91B9E750-937C-09AD-68EC-AF27817B3436</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

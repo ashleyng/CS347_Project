@@ -4,7 +4,7 @@
 <createdTime>2014-04-06 17:21:25 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,9 +20,8 @@
 <createdTime>2014-04-06 17:21:34 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -32,7 +31,7 @@
 <createdTime>2014-04-06 17:29:57 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,7 +45,7 @@
 <createdTime>2014-04-06 17:30:09 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -60,7 +59,7 @@
 <createdTime>2014-04-06 17:30:21 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -73,12 +72,27 @@
 <generatorID>533676F2-69EE-4492-0A77-705EB9FA1097</generatorID>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>13A0FC31-1744-5F57-9D14-69703F5EEF26</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="914A888A-60AD-EA97-6ECE-7EE468C9A9B9" name="BC_invoices PK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-06 19:10:40 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>03F64DC0-72D0-30F7-3E83-A52DA376AFD8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

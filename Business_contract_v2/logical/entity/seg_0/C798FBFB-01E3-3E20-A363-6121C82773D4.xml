@@ -4,7 +4,7 @@
 <createdTime>2014-04-06 17:24:31 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,9 +20,8 @@
 <createdTime>2014-04-06 17:24:40 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -32,7 +31,7 @@
 <createdTime>2014-04-06 17:32:47 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,7 +44,7 @@
 <createdTime>2014-04-06 17:32:57 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -58,7 +57,7 @@
 <createdTime>2014-04-06 17:33:12 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -71,7 +70,7 @@
 <createdTime>2014-04-06 17:33:24 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -84,7 +83,7 @@
 <createdTime>2014-04-06 17:33:47 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -98,7 +97,7 @@
 <generatorID>7553F5F7-84F7-BC38-3469-EC8FAABB451F</generatorID>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>AD8901CD-B9E1-5E83-DAD9-D64F1433B8B6</referedAttribute>
@@ -107,4 +106,18 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2FDF4330-F95E-62A0-CEAF-2AABF2D6ADB7" name="BC_employee PK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-06 19:11:17 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D75E35DB-0422-B87B-AFAD-C49545580C68</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
