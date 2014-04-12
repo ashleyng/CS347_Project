@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6788463E-EFA3-7D8F-DB7F-74E0381733FF" name="BC_department_contact">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-12 18:20:30 UTC</createdTime>
+<generatorID>7F5EEBE3-EE66-96F7-E233-1B5B73533FEA</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="department_contact_id" id="63496AA6-2286-7775-1516-2E3C0476874B">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-12 18:20:30 UTC</createdTime>
+<generatorID>37388E4C-B1A7-C6DD-289E-4305C9D80186</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BC_contract_contract_id" id="279F4522-8FB6-0609-B464-A009B2EB8FDC">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-12 18:20:30 UTC</createdTime>
+<generatorID>F4428C22-5636-48BF-08E4-FC6BC1A60A2F</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>7824C551-6063-D24C-986C-11115EAB7695</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36146857-C00B-0A2F-86E2-EB1F52D47EC6" referredColumn="7824C551-6063-D24C-986C-11115EAB7695"/>
+</associations>
+</Column>
+<Column name="BC_employee_employee_id" id="36AF820F-7AEE-7A2E-0AAE-ED5BC58EF36F">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-12 18:20:30 UTC</createdTime>
+<generatorID>68F18434-6A7A-895B-2044-EC2EA4E3E8D9</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>DC946AAA-61EA-5254-9C77-D5FA26A48100</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78B91DC7-B81D-9D58-2C03-A78D91AEFDEC" referredColumn="DC946AAA-61EA-5254-9C77-D5FA26A48100"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E08BAD70-06D1-F838-51D0-4E4F036F2066" name="BC_department_contact_PK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-12 18:20:30 UTC</createdTime>
+<generatorID>87D1B7F9-26C1-B7F9-0938-2D39DFEBB616</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63496AA6-2286-7775-1516-2E3C0476874B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45088815-5E79-89C4-9F68-559B27288D5E" name="BC_department_contact_BC_contract_FK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-12 18:20:31 UTC</createdTime>
+<generatorID>97764D41-8D05-63B0-A408-A8669564A09E</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="279F4522-8FB6-0609-B464-A009B2EB8FDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="713581FD-8FCE-2108-0C0B-17D5E025DAFF" name="BC_department_contact_BC_employee_FK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-12 18:20:31 UTC</createdTime>
+<generatorID>0562C370-CA20-E80B-E101-4704CECD463E</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36AF820F-7AEE-7A2E-0AAE-ED5BC58EF36F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

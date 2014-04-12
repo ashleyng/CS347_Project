@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F7B55DD3-BB00-CC3B-87CB-C0E9576A7938" name="BC_payment_BC_invoices_FK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-12 18:20:31 UTC</createdTime>
+<generatorID>EE8A7541-7A94-9D05-D858-AD09C744522D</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<containerWithKeyObject>DF9B414E-370F-83A8-78FE-65B7AAA57DD3</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>2B5D1367-0123-8592-38CD-248DE42F0886</localFKIndex>
+<keyObject>A7A3E6A9-16C3-3846-2F0A-C5F12BBCF8AD</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
