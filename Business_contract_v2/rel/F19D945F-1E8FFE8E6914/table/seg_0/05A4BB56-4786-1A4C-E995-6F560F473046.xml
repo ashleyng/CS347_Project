@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05A4BB56-4786-1A4C-E995-6F560F473046" name="BC_note">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-12 19:21:27 UTC</createdTime>
+<generatorID>D16BAFBC-077F-6EF9-DDF9-DFABA1024964</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="note_id" id="DD18841E-FA39-0251-9610-68037708BE55">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-12 19:21:27 UTC</createdTime>
+<generatorID>AEE5D4ED-0547-F86B-A350-5B9345E1101C</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_created" id="E78324E7-6241-FD05-A0B9-FE52473008D3">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-12 19:21:27 UTC</createdTime>
+<generatorID>87105341-0290-CE93-7C48-E7AB0D8214C6</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="notes" id="925F19EE-4DCF-2A07-B9C9-166648C4460D">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-12 19:21:27 UTC</createdTime>
+<generatorID>1068FC84-E9D2-57B6-48DE-B01444809E49</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BC_contract_contract_id" id="294939C5-629A-B5D7-51AF-52EB96BCC79E">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-12 19:21:27 UTC</createdTime>
+<generatorID>75DBB2B7-C0EA-7255-0E7A-A31AD8606DBF</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>0A139C7B-C775-07D9-270E-4E424AFAE46B</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C266909E-E3F8-95D3-63DB-A5132C8CD6C7" referredColumn="0A139C7B-C775-07D9-270E-4E424AFAE46B"/>
+</associations>
+</Column>
+<Column name="BC_communication_communication_id" id="FE7EE836-8F17-3721-9388-4C9BF2D403C5">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-12 19:21:27 UTC</createdTime>
+<generatorID>9FA30A2A-D076-6700-A540-3B3DE12F63BC</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>420FF68C-D081-6787-886A-3409B748A798</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D1202BC-8E2D-AEAC-C205-6DB632F97EA0" referredColumn="420FF68C-D081-6787-886A-3409B748A798"/>
+</associations>
+</Column>
+<Column name="BC_employee_employee_id" id="9F6AF09F-378E-CEC1-71A5-65CE9F145579">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-12 19:21:27 UTC</createdTime>
+<generatorID>1CED8A06-E672-73B1-2DAA-5C7F3FEFE988</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>8E89F4E6-F5F7-B3FF-0239-097761FF27A3</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65D0E236-AE8D-5626-786F-139F540F8DEB" referredColumn="8E89F4E6-F5F7-B3FF-0239-097761FF27A3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8EDE4497-1756-5950-CA3D-80E5A606966A" name="BC_note_PK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-12 19:21:27 UTC</createdTime>
+<generatorID>369AC121-6F06-BEA5-BFC6-15148F4058DD</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD18841E-FA39-0251-9610-68037708BE55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F08C66C-086D-2AEE-4568-22C940A00128" name="BC_note_BC_communication_FK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-12 19:21:27 UTC</createdTime>
+<generatorID>B1F961DC-A3F3-D51C-D721-096751D92867</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE7EE836-8F17-3721-9388-4C9BF2D403C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9F7198C-F1FB-BD12-2D11-412A2BF28AB5" name="BC_note_BC_contract_FK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-12 19:21:27 UTC</createdTime>
+<generatorID>557A8F6E-1B62-C437-DE1C-23C7274C3137</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="294939C5-629A-B5D7-51AF-52EB96BCC79E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA6D7876-C0C0-E7AC-96C2-BD46B67127EE" name="BC_note_BC_employee_FK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-12 19:21:27 UTC</createdTime>
+<generatorID>45D2FA88-98FF-F1F4-524E-BA04305BE78E</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F6AF09F-378E-CEC1-71A5-65CE9F145579"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

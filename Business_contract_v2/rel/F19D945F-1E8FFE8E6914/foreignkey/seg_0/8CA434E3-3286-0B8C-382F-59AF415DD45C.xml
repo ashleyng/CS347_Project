@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8CA434E3-3286-0B8C-382F-59AF415DD45C" name="BC_escalation_BC_amendment_FK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-12 19:21:27 UTC</createdTime>
+<generatorID>F21CA2F4-8C89-539E-FAB1-7CA0550FBE23</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<containerWithKeyObject>D90723F9-9314-1489-FF71-6693A774A856</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>CEECCDD8-E567-B058-6E15-17A970076FBC</localFKIndex>
+<keyObject>D9321766-7808-2ACB-13BB-A8E6CDC43F3D</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
