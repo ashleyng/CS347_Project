@@ -4,7 +4,7 @@
 <createdTime>2014-04-06 16:44:19 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
+<item key="94756821-76AF-D3C9-F425-333795193707" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <importedID>9A84430C-0170-73FB-82D8-6222E6699A28</importedID>
 <engineerTo>
-<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
+<item key="94756821-76AF-D3C9-F425-333795193707" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,27 +33,13 @@
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <importedID>BDDE18CD-4F21-4B0B-75E8-22A696D12183</importedID>
 <engineerTo>
-<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
+<item key="94756821-76AF-D3C9-F425-333795193707" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
-</Attribute>
-<Attribute name="employee_id" id="FA40C5BB-4E6D-0CF5-2442-B1E1E2C78013">
-<createdBy>ashleyng</createdBy>
-<createdTime>2014-04-06 19:11:18 UTC</createdTime>
-<generatorID>7553F5F7-84F7-BC38-3469-EC8FAABB451F</generatorID>
-<ownerDesignName>Business_contract_v2</ownerDesignName>
-<engineerTo>
-<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>D75E35DB-0422-B87B-AFAD-C49545580C68</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -62,7 +48,7 @@
 <createdTime>2014-04-06 16:44:19 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
+<item key="94756821-76AF-D3C9-F425-333795193707" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

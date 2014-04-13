@@ -15,19 +15,18 @@
    <object objectType="Entity" objectID="2FCE6FE3-585F-3846-ADCA-90CB59897BDA" name="BC_tickler" seqName="seg_0"/>
    <object objectType="Entity" objectID="B78A39A6-90C9-2BF2-0DB7-01E27974EDCB" name="BC_vendor" seqName="seg_0"/>
    <object objectType="Entity" objectID="72A4E1BB-7E98-7E1D-55AB-DB7BFA694951" name="BC_vendor_contact" seqName="seg_0"/>
+   <object objectType="Relation" objectID="D8ED4FA0-2F35-1A70-BF71-00CC237EAB66" name="Relation_21" seqName="seg_0"/>
    <object objectType="Relation" objectID="BCF85238-6856-83E8-BA25-33195001D9AC" name="amendment_to_document" seqName="seg_0"/>
    <object objectType="Relation" objectID="F21CA2F4-8C89-539E-FAB1-7CA0550FBE23" name="amendment_to_escalation" seqName="seg_0"/>
    <object objectType="Relation" objectID="B1F961DC-A3F3-D51C-D721-096751D92867" name="communication_to_note" seqName="seg_0"/>
    <object objectType="Relation" objectID="5C7252D2-FBA6-6E08-05A0-5AB9EDC74677" name="contract_to_amendment" seqName="seg_0"/>
    <object objectType="Relation" objectID="36D34B6F-AD4F-F158-5D7E-9EC1F5085C89" name="contract_to_checklist" seqName="seg_0"/>
    <object objectType="Relation" objectID="0A34A6C0-7C0B-2712-8D94-C8DBA384DEC7" name="contract_to_communication" seqName="seg_0"/>
-   <object objectType="Relation" objectID="97764D41-8D05-63B0-A408-A8669564A09E" name="contract_to_department_contact" seqName="seg_0"/>
    <object objectType="Relation" objectID="5AFC0032-FC61-BCA6-DA10-3D3794A05E7B" name="contract_to_document" seqName="seg_0"/>
    <object objectType="Relation" objectID="533676F2-69EE-4492-0A77-705EB9FA1097" name="contract_to_invoices" seqName="seg_0"/>
    <object objectType="Relation" objectID="557A8F6E-1B62-C437-DE1C-23C7274C3137" name="contract_to_note" seqName="seg_0"/>
    <object objectType="Relation" objectID="D22803EF-5DE8-7A3A-380D-3D1059E9D9CF" name="contract_to_tickler" seqName="seg_0"/>
    <object objectType="Relation" objectID="FE6CE8AA-A19F-C1D4-8C04-C1E9BFF951D8" name="department_to_contract" seqName="seg_0"/>
-   <object objectType="Relation" objectID="7553F5F7-84F7-BC38-3469-EC8FAABB451F" name="employee_to_department" seqName="seg_0"/>
    <object objectType="Relation" objectID="0562C370-CA20-E80B-E101-4704CECD463E" name="employee_to_department_contact" seqName="seg_0"/>
    <object objectType="Relation" objectID="45D2FA88-98FF-F1F4-524E-BA04305BE78E" name="employee_to_note" seqName="seg_0"/>
    <object objectType="Relation" objectID="06DC1E62-2A06-D524-0E01-7D1CA28CDA81" name="employee_to_notes" seqName="seg_0"/>

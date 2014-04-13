@@ -1,0 +1,365 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BBE02726-77A0-9356-9B4C-5BC7AA3557DF" name="BC_contract">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:46 UTC</createdTime>
+<generatorID>D71EBD75-B6D1-3B1A-D1EE-48CEA8A9CE50</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="contract_id" id="C7E61DF0-4B84-B53D-8B99-67C07A36A309">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:46 UTC</createdTime>
+<generatorID>13A0FC31-1744-5F57-9D14-69703F5EEF26</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="start_date" id="7A40F23D-5697-AD88-8557-B6E9CCFFEBCF">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:46 UTC</createdTime>
+<generatorID>B7E1F137-FE31-E464-A25E-5310A262A045</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_date" id="6E333E80-7A04-FF97-7132-F3947895F8E6">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:46 UTC</createdTime>
+<generatorID>DF61EAF1-FC15-D97E-A91F-486B576C341B</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="purpose" id="7A791C46-719B-E396-FEAD-7FDB93DD8C6B">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:46 UTC</createdTime>
+<generatorID>3E22B213-E10A-3F89-E632-296EE6E6296F</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contract_administrator" id="AE26DAD8-9168-5A3D-D760-58C9268716EA">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:46 UTC</createdTime>
+<generatorID>AB94A190-4315-4384-E877-157D9EC5EC1A</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="departmental_contact" id="2159FB15-1F87-38E0-81DB-16FFD7190579">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:46 UTC</createdTime>
+<generatorID>FDE3FE83-96E8-22CC-0D1E-3948463BFABB</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="received_date" id="DD206D66-691A-7066-1440-35F26C2A8FFA">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:46 UTC</createdTime>
+<generatorID>8C42CDE3-5BE9-A6B1-DFD1-99C83F16AA1C</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ongoing" id="0F9FAD27-E0DA-F032-5AA3-4A11A07BFE2F">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:46 UTC</createdTime>
+<generatorID>B48E3AEB-B743-FAED-F7EC-F146DB89D9B0</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="renewable" id="23301090-B95A-E360-377B-631FB085D366">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:46 UTC</createdTime>
+<generatorID>38D8B388-FDC7-7BF4-69B7-FD1221408AC1</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="foreign" id="196B3F1B-9015-0F37-8914-E33C44DD5ABE">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:46 UTC</createdTime>
+<generatorID>8DAD8B19-3D8A-433E-78E7-FD00DB424EF1</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="notes" id="00D18554-9E79-BF46-AF60-73F72050497F">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:46 UTC</createdTime>
+<generatorID>45B07D54-BFA6-B803-F4A3-727515419B8F</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="facility_use_of_UT_building" id="37E9F08C-342B-4AAC-D3C1-8BFC3580E4A7">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:46 UTC</createdTime>
+<generatorID>4A79F1B9-8623-D10E-CA1A-80B69B7EB019</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="service_type" id="CEB2B3CB-8640-132C-6EC9-8BEDE9B044CF">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:46 UTC</createdTime>
+<generatorID>86F7F1FA-CFC4-C5B0-99D0-FD9392988124</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="21EB8E44-F99C-3817-32D7-580EDE8625E4">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:46 UTC</createdTime>
+<generatorID>36A627C9-88F5-182D-EBF0-9ED4FBDF7A29</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reviewed_by" id="81CE1E35-4CD0-775E-EFB6-759106555849">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:46 UTC</createdTime>
+<generatorID>655F46E5-AFAA-61FA-B7ED-0DCBF7D6D7A7</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="signed_by" id="EBDB70AB-08F5-2325-6EA4-4AF665C75BA8">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:46 UTC</createdTime>
+<generatorID>1968BA56-449D-F948-37B5-A9BEB48902BB</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="signed_date" id="5C4F14C1-4F4C-BC3C-8072-064C9803E8B1">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:46 UTC</createdTime>
+<generatorID>AFC53AB5-5D74-FF83-5EE1-1C1E079DEF0C</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="programatic_approval" id="6201B485-DA18-0A88-55D7-2B4421986814">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:46 UTC</createdTime>
+<generatorID>F9B5266F-5914-0300-0508-B02E39EB1C5F</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="return_date" id="33952DED-7094-302E-075F-1C5D788780DF">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:46 UTC</createdTime>
+<generatorID>29138EBC-8BAE-169B-4395-622552CE22C3</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BC_vendor_vendor_id" id="7F0A6331-CC3A-CE4D-676E-FA9E94D18A2F">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:46 UTC</createdTime>
+<generatorID>8C698DC2-1C98-8971-D4E1-23D78ECAAC80</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>C7CCD32B-A36A-9456-CFB2-133E673E7E9A</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97EF4FC9-FB35-4BBC-11C7-18EA4B246F25" referredColumn="C7CCD32B-A36A-9456-CFB2-133E673E7E9A"/>
+</associations>
+</Column>
+<Column name="BC_department_department_id" id="02734A2C-7C75-21D5-B1D9-B6E90D26C807">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:46 UTC</createdTime>
+<generatorID>00259573-C920-5A33-0D10-031B090CC008</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>3ED4906B-F0F8-FF4B-0E9D-44058B44BBA3</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F51932E8-6D20-58C8-EA71-89155725877E" referredColumn="3ED4906B-F0F8-FF4B-0E9D-44058B44BBA3"/>
+</associations>
+</Column>
+<Column name="BC_checklist_checklist_id" id="913EE6C9-B73E-2EAF-904C-96FD752FBAAD">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:46 UTC</createdTime>
+<generatorID>3180EF6A-487B-4A25-AFC5-062F702DEE18</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>E28A6DA8-5318-9CBF-88DA-F36BE476457D</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B5D92F4-43D2-3A5B-E9B2-373A4D615319" referredColumn="E28A6DA8-5318-9CBF-88DA-F36BE476457D"/>
+</associations>
+</Column>
+<Column name="BC_department_contact_department_contact_id" id="D524DA1C-894F-D954-AA08-88C93E4AA5D4">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:46 UTC</createdTime>
+<generatorID>E16A07A3-D62A-91C7-AE7F-8E2B9E711A46</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>8D6840C6-457F-B6B8-5480-045A8EE74708</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F036123-9802-9CE8-3B9C-1D6EB1FE52F0" referredColumn="8D6840C6-457F-B6B8-5480-045A8EE74708"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72435556-EE5E-73CC-B180-0E9EE8580489" name="BC_contract_PK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:46 UTC</createdTime>
+<generatorID>C3F4A172-9BC7-6088-F4BA-BE34F231FADF</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7E61DF0-4B84-B53D-8B99-67C07A36A309"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A38D4839-63A6-A4F1-5323-554A31CB0877" name="BC_contract__IDX">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:47 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>36D34B6F-AD4F-F158-5D7E-9EC1F5085C89</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="913EE6C9-B73E-2EAF-904C-96FD752FBAAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CCEB1F1-90C9-7894-2D6D-F03F4A637629" name="BC_contract_BC_department_contact_FK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:47 UTC</createdTime>
+<generatorID>D8ED4FA0-2F35-1A70-BF71-00CC237EAB66</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D524DA1C-894F-D954-AA08-88C93E4AA5D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1176FDEF-9DA7-6F6D-D1A9-0A60E5DD4686" name="BC_contract_BC_checklist_FK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:47 UTC</createdTime>
+<generatorID>36D34B6F-AD4F-F158-5D7E-9EC1F5085C89</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="913EE6C9-B73E-2EAF-904C-96FD752FBAAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59D22388-A027-8FBF-C32C-16B0966D9B0B" name="BC_contract_BC_department_FK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:47 UTC</createdTime>
+<generatorID>FE6CE8AA-A19F-C1D4-8C04-C1E9BFF951D8</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02734A2C-7C75-21D5-B1D9-B6E90D26C807"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5122E10E-8DB3-C759-DC58-D8C872222A74" name="BC_contract_BC_vendor_FK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 01:25:47 UTC</createdTime>
+<generatorID>679A2C55-5B55-A1D5-7DE2-7DF804CC8894</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F0A6331-CC3A-CE4D-676E-FA9E94D18A2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
