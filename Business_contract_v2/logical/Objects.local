@@ -3,9 +3,9 @@
    <object objectType="Entity" objectID="55F330FF-EF81-608B-B2AE-C1D7BA209BAF" name="BC_amendment" seqName="seg_0"/>
    <object objectType="Entity" objectID="3A7020B2-1D13-3348-17F7-28BA7441AE59" name="BC_checklist" seqName="seg_0"/>
    <object objectType="Entity" objectID="12E352F4-40B1-14F6-E708-104FE9D9F304" name="BC_communication" seqName="seg_0"/>
+   <object objectType="Entity" objectID="72A4E1BB-7E98-7E1D-55AB-DB7BFA694951" name="BC_contact" seqName="seg_0"/>
    <object objectType="Entity" objectID="D71EBD75-B6D1-3B1A-D1EE-48CEA8A9CE50" name="BC_contract" seqName="seg_0"/>
    <object objectType="Entity" objectID="B8EB28B6-E728-51C4-6DFC-4F79F55F3B93" name="BC_department" seqName="seg_0"/>
-   <object objectType="Entity" objectID="7F5EEBE3-EE66-96F7-E233-1B5B73533FEA" name="BC_department_contact" seqName="seg_0"/>
    <object objectType="Entity" objectID="44038AEA-A609-9FD5-E33E-C909F4182CA2" name="BC_document" seqName="seg_0"/>
    <object objectType="Entity" objectID="C798FBFB-01E3-3E20-A363-6121C82773D4" name="BC_employee" seqName="seg_0"/>
    <object objectType="Entity" objectID="B3DE2677-361A-DF7E-5A56-BA1971AB8241" name="BC_escalation" seqName="seg_0"/>
@@ -14,8 +14,12 @@
    <object objectType="Entity" objectID="2587B050-8FA8-04C8-57CD-0BAAC56E5D63" name="BC_payment" seqName="seg_0"/>
    <object objectType="Entity" objectID="2FCE6FE3-585F-3846-ADCA-90CB59897BDA" name="BC_tickler" seqName="seg_0"/>
    <object objectType="Entity" objectID="B78A39A6-90C9-2BF2-0DB7-01E27974EDCB" name="BC_vendor" seqName="seg_0"/>
-   <object objectType="Entity" objectID="72A4E1BB-7E98-7E1D-55AB-DB7BFA694951" name="BC_vendor_contact" seqName="seg_0"/>
-   <object objectType="Relation" objectID="D8ED4FA0-2F35-1A70-BF71-00CC237EAB66" name="Relation_21" seqName="seg_0"/>
+   <object objectType="Relation" objectID="2AEFB3EA-BB58-5A3B-5087-8E227B66937F" name="Relation_20" seqName="seg_0"/>
+   <object objectType="Relation" objectID="7C050971-3DEB-3AFA-84FD-4698848FF3F4" name="Relation_23" seqName="seg_0"/>
+   <object objectType="Relation" objectID="03A4DC40-D12E-CD89-AB8C-0A1B9BF4290C" name="Relation_24" seqName="seg_0"/>
+   <object objectType="Relation" objectID="856F1B74-F838-09B4-DF0E-F3EA46721109" name="Relation_25" seqName="seg_0"/>
+   <object objectType="Relation" objectID="ECD4DCCA-636F-069F-2E2A-36F6AD6FF00F" name="Relation_26" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B889B903-F7D7-D6E5-6D37-2CCDDF91A28B" name="Relation_27" seqName="seg_0"/>
    <object objectType="Relation" objectID="BCF85238-6856-83E8-BA25-33195001D9AC" name="amendment_to_document" seqName="seg_0"/>
    <object objectType="Relation" objectID="F21CA2F4-8C89-539E-FAB1-7CA0550FBE23" name="amendment_to_escalation" seqName="seg_0"/>
    <object objectType="Relation" objectID="B1F961DC-A3F3-D51C-D721-096751D92867" name="communication_to_note" seqName="seg_0"/>
@@ -26,8 +30,6 @@
    <object objectType="Relation" objectID="533676F2-69EE-4492-0A77-705EB9FA1097" name="contract_to_invoices" seqName="seg_0"/>
    <object objectType="Relation" objectID="557A8F6E-1B62-C437-DE1C-23C7274C3137" name="contract_to_note" seqName="seg_0"/>
    <object objectType="Relation" objectID="D22803EF-5DE8-7A3A-380D-3D1059E9D9CF" name="contract_to_tickler" seqName="seg_0"/>
-   <object objectType="Relation" objectID="FE6CE8AA-A19F-C1D4-8C04-C1E9BFF951D8" name="department_to_contract" seqName="seg_0"/>
-   <object objectType="Relation" objectID="0562C370-CA20-E80B-E101-4704CECD463E" name="employee_to_department_contact" seqName="seg_0"/>
    <object objectType="Relation" objectID="45D2FA88-98FF-F1F4-524E-BA04305BE78E" name="employee_to_note" seqName="seg_0"/>
    <object objectType="Relation" objectID="06DC1E62-2A06-D524-0E01-7D1CA28CDA81" name="employee_to_notes" seqName="seg_0"/>
    <object objectType="Relation" objectID="EE8A7541-7A94-9D05-D858-AD09C744522D" name="invoices_to_payment" seqName="seg_0"/>

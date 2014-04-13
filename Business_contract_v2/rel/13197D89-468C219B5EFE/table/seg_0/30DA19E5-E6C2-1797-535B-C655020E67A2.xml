@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30DA19E5-E6C2-1797-535B-C655020E67A2" name="BC_escalation">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 04:56:55 UTC</createdTime>
+<generatorID>B3DE2677-361A-DF7E-5A56-BA1971AB8241</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="escalation_id" id="8B20FC98-0121-EB70-FF4D-5C84D01374C1">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 04:56:55 UTC</createdTime>
+<generatorID>D28071E5-20CE-D149-724A-01F1438F8668</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="new_amount" id="DB0324DE-1D97-0CB7-1AC4-0C84A7F02528">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 04:56:55 UTC</createdTime>
+<generatorID>A14D1347-535F-8C92-65B1-32404FB81C87</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="old_amount" id="9D632C35-02D6-8E77-3653-C38181012496">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 04:56:55 UTC</createdTime>
+<generatorID>BFFC326F-7C9D-8937-464B-7420BD1107C9</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="percentage" id="71D3F82B-798A-08AC-1FCD-513D95DFA7B5">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 04:56:55 UTC</createdTime>
+<generatorID>C6C4857D-5275-8219-E353-95660BB95803</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BC_amendment_amendment_id" id="392D02F6-2677-D72D-16F3-F4FD117FA3D5">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 04:56:55 UTC</createdTime>
+<generatorID>02F22BD1-677B-8BDB-F6DF-A97A663FF462</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>07CD0EEF-A6FF-32BD-98FF-145E0A8D7BEC</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80D2CF45-5FC6-CBA4-F693-7DAAF3DACC52" referredColumn="07CD0EEF-A6FF-32BD-98FF-145E0A8D7BEC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16942AE0-1309-4264-6BCF-D002CF47B38F" name="BC_escalation_PK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 04:56:55 UTC</createdTime>
+<generatorID>AB458338-1661-3646-AE33-E047A2215E23</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B20FC98-0121-EB70-FF4D-5C84D01374C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1935F3E3-6B2D-A2FF-02EB-DD79BD166AC8" name="BC_escalation__IDX">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 04:56:55 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F21CA2F4-8C89-539E-FAB1-7CA0550FBE23</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="392D02F6-2677-D72D-16F3-F4FD117FA3D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14A3F921-FFE0-D1C7-1DBD-30D84C1B1328" name="BC_escalation_BC_amendment_FK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 04:56:55 UTC</createdTime>
+<generatorID>F21CA2F4-8C89-539E-FAB1-7CA0550FBE23</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="392D02F6-2677-D72D-16F3-F4FD117FA3D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

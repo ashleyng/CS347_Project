@@ -4,7 +4,7 @@
 <createdTime>2014-04-06 16:44:47 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <importedID>F5599742-D0CF-CEC3-1EED-2307EE7BF293</importedID>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2014-04-06 17:25:54 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,7 +45,7 @@
 <createdTime>2014-04-06 17:26:03 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -57,7 +57,7 @@
 <createdTime>2014-04-06 17:26:39 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -69,7 +69,7 @@
 <createdTime>2014-04-06 17:26:55 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -82,7 +82,7 @@
 <generatorID>5C7252D2-FBA6-6E08-05A0-5AB9EDC74677</generatorID>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>13A0FC31-1744-5F57-9D14-69703F5EEF26</referedAttribute>
@@ -96,10 +96,24 @@
 <generatorID>F21CA2F4-8C89-539E-FAB1-7CA0550FBE23</generatorID>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>D28071E5-20CE-D149-724A-01F1438F8668</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="employee_id" id="E6424D79-F3E1-0F2C-7AB5-63BEE6B2D809">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 04:54:07 UTC</createdTime>
+<generatorID>ECD4DCCA-636F-069F-2E2A-36F6AD6FF00F</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D75E35DB-0422-B87B-AFAD-C49545580C68</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -111,7 +125,7 @@
 <createdTime>2014-04-06 16:44:47 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

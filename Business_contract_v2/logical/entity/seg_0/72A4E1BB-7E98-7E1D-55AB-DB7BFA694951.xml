@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="72A4E1BB-7E98-7E1D-55AB-DB7BFA694951" name="BC_vendor_contact">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="72A4E1BB-7E98-7E1D-55AB-DB7BFA694951" name="BC_contact">
 <createdBy>Jared</createdBy>
 <createdTime>2014-04-06 16:58:33 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <importedID>EA6FC033-D6D8-7DF7-778C-474819B4C2B3</importedID>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <importedID>208EA2B8-14EE-6899-0D2D-09DB26C1ACC9</importedID>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,7 +46,7 @@
 <createdTime>2014-04-06 16:58:45 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -60,7 +60,7 @@
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <importedID>5B6FA3DB-CA66-A7E6-1CD0-DD08B83B0DF4</importedID>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -74,7 +74,7 @@
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <importedID>2713D768-FD55-7A3A-BE00-DD78F1407D3B</importedID>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -88,7 +88,7 @@
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <importedID>F1CBE6CD-CF6F-7C9D-7955-57AC729580E1</importedID>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -102,7 +102,7 @@
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <importedID>AC98192E-8EDB-DA37-DFCD-F48F80398C2C</importedID>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -116,7 +116,7 @@
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <importedID>91C1B9EB-BD62-81D7-3863-10FD068746F2</importedID>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -130,7 +130,7 @@
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <importedID>7E45FAFD-6DD0-832A-3981-77BD582BEA6E</importedID>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -144,7 +144,7 @@
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <importedID>4309EBAB-53DA-4014-B1F7-B0CFEE32CD79</importedID>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -158,7 +158,7 @@
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <importedID>385224EB-7B59-DE58-A15D-DCFD0F091008</importedID>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -172,10 +172,24 @@
 <generatorID>B26D1FDC-FD57-CAF3-AFAC-BB2A8A834649</generatorID>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>C77C9D26-9C40-F705-0BFC-39DFAC9D1ED7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="department_id" id="38BF63CF-12D3-1F1F-19A3-7E33D17274A4">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 04:48:59 UTC</createdTime>
+<generatorID>7C050971-3DEB-3AFA-84FD-4698848FF3F4</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>AD8901CD-B9E1-5E83-DAD9-D64F1433B8B6</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -187,7 +201,7 @@
 <createdTime>2014-04-06 16:58:33 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

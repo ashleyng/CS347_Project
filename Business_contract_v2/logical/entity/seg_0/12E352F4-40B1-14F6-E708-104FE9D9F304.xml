@@ -4,7 +4,7 @@
 <createdTime>2014-04-06 17:19:22 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2014-04-06 17:19:41 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,7 +31,7 @@
 <createdTime>2014-04-06 17:28:39 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,7 +45,7 @@
 <generatorID>0A34A6C0-7C0B-2712-8D94-C8DBA384DEC7</generatorID>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>13A0FC31-1744-5F57-9D14-69703F5EEF26</referedAttribute>
@@ -53,13 +53,13 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 </Attribute>
-<Attribute name="contact_id" id="74DABE80-9B67-7BA2-E262-EA2D58758ED8">
+<Attribute name="vendor_contact_id" id="74DABE80-9B67-7BA2-E262-EA2D58758ED8">
 <createdBy>Jared</createdBy>
 <createdTime>2014-04-06 17:52:04 UTC</createdTime>
 <generatorID>9053BDFC-850C-4713-DD25-87D5410EFB0F</generatorID>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>E19D1761-9EDF-5417-8EDC-C7E6E568F6EF</referedAttribute>
@@ -73,7 +73,7 @@
 <generatorID>06DC1E62-2A06-D524-0E01-7D1CA28CDA81</generatorID>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>D75E35DB-0422-B87B-AFAD-C49545580C68</referedAttribute>
@@ -88,7 +88,7 @@
 <createdTime>2014-04-06 19:10:58 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="8D4F48CE-1466-6A66-BDE4-FDE1BC12E330" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
