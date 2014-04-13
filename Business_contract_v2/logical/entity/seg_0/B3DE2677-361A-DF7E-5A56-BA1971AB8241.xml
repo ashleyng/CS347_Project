@@ -4,7 +4,7 @@
 <createdTime>2014-04-06 16:50:03 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2014-04-06 16:50:12 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,7 +31,7 @@
 <createdTime>2014-04-06 16:59:59 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,7 +45,7 @@
 <createdTime>2014-04-06 17:02:56 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -59,7 +59,7 @@
 <createdTime>2014-04-06 17:03:45 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -74,13 +74,25 @@
 <generatorID>F21CA2F4-8C89-539E-FAB1-7CA0550FBE23</generatorID>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>EF6A1DCC-E3FA-B969-E06F-151C0520AF03</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="effective_date" id="19017C6A-1DE3-6457-77B4-884FA3657581">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-04-13 18:45:43 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -89,7 +101,7 @@
 <createdTime>2014-04-06 16:50:27 UTC</createdTime>
 <ownerDesignName>Business_contract_v2</ownerDesignName>
 <engineerTo>
-<item key="30399EE1-F764-EC57-E8AF-814AD2461C5F" value="true"/>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

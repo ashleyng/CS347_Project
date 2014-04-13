@@ -34,7 +34,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="44038AEA-A609-9FD5-E33E-C909F4182CA2" otype="Entity" vid="4F6CDB0B-B8B5-CA93-726A-9C340BDFDA1A">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="394" y="377" width="257" height="172"/>
+<bounds x="394" y="411" width="257" height="172"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="55F330FF-EF81-608B-B2AE-C1D7BA209BAF" otype="Entity" vid="668839F0-B981-A9AF-F122-644E4D57CA26">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -46,7 +46,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="B3DE2677-361A-DF7E-5A56-BA1971AB8241" otype="Entity" vid="F7E93877-3995-E044-1E2A-DD487B960023">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="684" y="180" width="221" height="116"/>
+<bounds x="684" y="180" width="222" height="130"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="B78A39A6-90C9-2BF2-0DB7-01E27974EDCB" otype="Entity" vid="304506D0-FFBA-2498-3AD4-5DDDB6F5CD72">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -146,9 +146,9 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="330" y="404"/>
-<point x="370" y="404"/>
-<point x="394" y="404"/>
+<point x="330" y="433"/>
+<point x="368" y="433"/>
+<point x="394" y="433"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="5C7252D2-FBA6-6E08-05A0-5AB9EDC74677" otype="Relation" vid_source="34A1F724-DF1B-4A83-4433-B94844787D94" vid_target="668839F0-B981-A9AF-F122-644E4D57CA26">
@@ -228,7 +228,7 @@
 <points>
 <point x="464" y="319"/>
 <point x="464" y="352"/>
-<point x="464" y="377"/>
+<point x="464" y="411"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="D22803EF-5DE8-7A3A-380D-3D1059E9D9CF" otype="Relation" vid_source="34A1F724-DF1B-4A83-4433-B94844787D94" vid_target="7A1BDCD1-4C87-C46F-AA9D-636A775755B6">
@@ -263,8 +263,8 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="625" y="238"/>
-<point x="684" y="238"/>
+<point x="625" y="245"/>
+<point x="684" y="245"/>
 </points>
 </Connector>
 </connectors>
