@@ -136,6 +136,34 @@
 <logicalDatatype>LOGDT006</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 </Attribute>
+<Attribute name="initial_cost" id="355EADCA-AA3D-EE63-6444-2885F3900681">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-19 17:29:12 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+<Attribute name="current_cost" id="065126F3-726E-8B48-2C5B-A75C0F9F8821">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-19 17:29:41 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
 <Attribute name="foreign" id="8DAD8B19-3D8A-433E-78E7-FD00DB424EF1">
 <createdBy>Jared</createdBy>
 <createdTime>2014-04-06 16:43:15 UTC</createdTime>
@@ -354,6 +382,19 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>D75E35DB-0422-B87B-AFAD-C49545580C68</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="system_approval_id" id="743F5F02-0A6E-9008-0ADA-CD17B9DE7A9D">
+<createdBy>Jared</createdBy>
+<createdTime>2014-04-19 17:37:47 UTC</createdTime>
+<generatorID>1B6992DE-1410-E9DE-1D15-4F88F1CDB80D</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<engineerTo>
+<item key="13197D89-6E8C-0AD7-5393-468C219B5EFE" value="true"/>
+</engineerTo>
+<referedAttribute>138CE4D2-E08C-9344-53D7-30CBD4D46196</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
