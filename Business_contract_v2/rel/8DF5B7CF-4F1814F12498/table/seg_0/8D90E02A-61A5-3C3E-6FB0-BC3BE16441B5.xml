@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8D90E02A-61A5-3C3E-6FB0-BC3BE16441B5" name="BC_checklist">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-06-17 17:37:55 UTC</createdTime>
+<generatorID>3A7020B2-1D13-3348-17F7-28BA7441AE59</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="checklist_id" id="519B69C0-EC8E-1049-5D9A-D219A56C8740">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-06-17 17:37:55 UTC</createdTime>
+<generatorID>806F6A1F-FB43-FE2F-36E0-7216B2B76700</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BC_contract_contract_id" id="75C81881-B32C-6610-D562-E75997F47CEF">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-06-17 17:37:55 UTC</createdTime>
+<generatorID>FA38E281-24EC-CB28-332F-36BA2CA2F252</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>0A2849DE-1DB0-FABD-A8CF-A8BE7803B4E0</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="959415C4-EB74-1DD7-6FEF-62AAD674F077" referredColumn="0A2849DE-1DB0-FABD-A8CF-A8BE7803B4E0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7478BD8E-1480-DCEA-04AD-0C13CBCF0830" name="BC_checklist_PK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-06-17 17:37:55 UTC</createdTime>
+<generatorID>DF930C25-5391-EC46-22F7-5AF54B1EB3C7</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="519B69C0-EC8E-1049-5D9A-D219A56C8740"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F433284D-744E-1894-B8B7-6790C2A429B6" name="BC_checklist__IDX">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-06-17 17:37:55 UTC</createdTime>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>36D34B6F-AD4F-F158-5D7E-9EC1F5085C89</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="75C81881-B32C-6610-D562-E75997F47CEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F8BFDFE-0033-1105-0FC6-8B164A81BB35" name="BC_checklist_BC_contract_FK">
+<createdBy>ashleyng</createdBy>
+<createdTime>2014-06-17 17:37:55 UTC</createdTime>
+<generatorID>36D34B6F-AD4F-F158-5D7E-9EC1F5085C89</generatorID>
+<ownerDesignName>Business_contract_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75C81881-B32C-6610-D562-E75997F47CEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

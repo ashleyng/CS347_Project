@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="E20163BB-8C53-47B7-8096-402BDF473E8F" name="BC_amendment" seqName="seg_0"/>
+   <object objectType="Table" objectID="8D90E02A-61A5-3C3E-6FB0-BC3BE16441B5" name="BC_checklist" seqName="seg_0"/>
+   <object objectType="Table" objectID="013476F9-4BE3-5CB4-7430-5DF090F0D869" name="BC_communication" seqName="seg_0"/>
+   <object objectType="Table" objectID="5DD5AEFB-9001-ED6F-1E38-94C264C6867C" name="BC_contact" seqName="seg_0"/>
+   <object objectType="Table" objectID="339F9986-349F-ECD3-0702-D730DD988A07" name="BC_contract" seqName="seg_0"/>
+   <object objectType="Table" objectID="04303335-CAB2-359A-16A7-44541EBBDE63" name="BC_department" seqName="seg_0"/>
+   <object objectType="Table" objectID="D61B48F3-5FB9-12AB-4922-EC91AB7B6A24" name="BC_document" seqName="seg_0"/>
+   <object objectType="Table" objectID="5647879E-084B-8D9B-948A-EB03E704DE7B" name="BC_employee" seqName="seg_0"/>
+   <object objectType="Table" objectID="B10D5193-DE5C-7013-6C65-6E907EE38F5D" name="BC_escalation" seqName="seg_0"/>
+   <object objectType="Table" objectID="FDF0D5BF-A919-8760-B8EF-A0AB2EFABC25" name="BC_invoices" seqName="seg_0"/>
+   <object objectType="Table" objectID="3BEFC7E8-B66A-0053-A53F-BE8484BDF1E0" name="BC_note" seqName="seg_0"/>
+   <object objectType="Table" objectID="003D3623-5A7E-301F-E546-1606FC477C9A" name="BC_payment" seqName="seg_0"/>
+   <object objectType="Table" objectID="DAC40F98-99CF-E421-EB7B-01CE2114481C" name="BC_system_approval" seqName="seg_0"/>
+   <object objectType="Table" objectID="CC2C89B7-BB3C-0988-6A0D-D88D838511DA" name="BC_tickler" seqName="seg_0"/>
+   <object objectType="Table" objectID="1003921C-C755-B172-2F0D-917AF660D48B" name="BC_vendor" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="8F908C85-3637-FEC3-DB4C-EE10B0228DA3" name="BC_amendment_BC_contract_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="64C9D060-85F7-40BA-697B-3C275EB28123" name="BC_amendment_BC_employee_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6D94E50F-980D-7C98-8B52-A04BB103DCC7" name="BC_amendment_BC_escalation_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="959415C4-EB74-1DD7-6FEF-62AAD674F077" name="BC_checklist_BC_contract_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="0E2F0161-8D0B-18FF-7632-6B8A12C09FA0" name="BC_communication_BC_contact_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9EA230F8-2D5B-58F6-3CCB-0971AAC23FDE" name="BC_communication_BC_contract_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="80CC60A6-58A3-DC8C-B5EC-E7D5BA9156E3" name="BC_communication_BC_employee_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A067A3F5-F384-8BF6-F787-F7AB7E247C48" name="BC_contact_BC_department_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="637E664E-46C2-D668-6331-DADCF7B48681" name="BC_contact_BC_vendor_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="50C3FA16-E728-A378-9AF1-416DBEAA0D2B" name="BC_contract_BC_checklist_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C8D01C13-00BD-410A-4094-EA692C35C790" name="BC_contract_BC_contact_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D813E7F9-0E1F-52C8-2C41-93FB8B9E9CCA" name="BC_contract_BC_contact_FKv1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="551DF506-FC59-B49F-BEFD-DDDD34587B0C" name="BC_contract_BC_department_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5DF3750E-3118-4FF7-10E9-885A3ED7C343" name="BC_contract_BC_employee_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="FD71F74A-721E-A420-8E92-926013B33482" name="BC_contract_BC_system_approval_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="4061E370-9FDA-58AE-E505-252107B4FC09" name="BC_contract_BC_vendor_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="EA6E4F3E-0F11-C4BD-004C-705C4BF8F2D1" name="BC_document_BC_amendment_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C081F424-C3D1-20E3-6B5D-7623BE8E4B93" name="BC_document_BC_contract_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C84B3D84-9387-2FBB-BA7C-60F563347F7E" name="BC_escalation_BC_amendment_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="41C83551-0560-98F6-2D65-793A6A3BBE7B" name="BC_invoices_BC_contract_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E8BCAAC0-06AB-604B-46F9-E8DEE751874E" name="BC_note_BC_communication_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="BFE681D7-E305-DD6A-1C0E-1FFDF1A82C87" name="BC_note_BC_contract_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="0022CCAE-F796-0B47-1060-47D4CD904913" name="BC_note_BC_employee_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="3E9A5A24-F0A8-D0A3-E15F-3A4ECF9AAF87" name="BC_payment_BC_invoices_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5AD78B17-01F2-4A4C-ECAA-9DCAEAE506E8" name="BC_system_approval_BC_contract_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="55A1EBB1-4DFF-F4F4-0CC3-D34301D12F5F" name="BC_tickler_BC_contract_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
